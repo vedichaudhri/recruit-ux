@@ -21,6 +21,7 @@ function getCurrentJobs() {
 const el = {
   badge: document.getElementById("job-count-badge"),
   companyTabs: document.getElementById("company-tabs"),
+  companyScaleNote: document.getElementById("company-scale-note"),
   companySourceNote: document.getElementById("company-source-note"),
   keyDetails: document.getElementById("key-details"),
   keyStatus: document.getElementById("key-status"),
@@ -213,6 +214,16 @@ function selectCompany(id) {
     company.id === "yc"
       ? `Searching ${jobCount} real startup roles from ${company.name}`
       : `Searching ${jobCount} open roles at ${company.name}`;
+
+  if (company.totalOpenRoles) {
+    el.companyScaleNote.innerHTML =
+      `Real scale: <span class="scale-total">${company.totalOpenRoles} open roles</span> right now at ${company.name} — ` +
+      `<span class="scale-sample">this demo matches you against a curated sample of ${jobCount} of them.</span>`;
+    el.companyScaleNote.title = company.totalOpenRolesSource || "";
+  } else {
+    el.companyScaleNote.textContent = "";
+  }
+
   el.companySourceNote.textContent = `${company.sourceNote} (snapshot: ${company.snapshotDate})`;
 
   renderCompanyTabs();

@@ -113,8 +113,21 @@ body {
   border-color: var(--accent);
   color: white;
 }
+.company-scale-note {
+  margin: 14px 0 0;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+.company-scale-note .scale-total {
+  color: var(--accent);
+}
+.company-scale-note .scale-sample {
+  font-weight: 400;
+  color: var(--ink-soft);
+}
+
 .company-source-note {
-  margin: 12px 0 0;
+  margin: 8px 0 0;
   font-size: 12.5px;
   color: var(--ink-soft);
 }

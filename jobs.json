@@ -345,7 +345,9 @@
           ],
           "sourceUrl": "https://corporate.target.com/jobs/w39/77/full-time-hourly-warehouse-operations-openings-$1,000-sign-on-bonus-t0579"
         }
-      ]
+      ],
+      "totalOpenRoles": "553+",
+      "totalOpenRolesSource": "Sum of Target's own live category result counts on corporate.target.com/careers: 227 Corporate + 163 Stores + 163 Supply Chain (likely an undercount — not every category was checked)."
     },
     {
       "id": "walmart",
@@ -738,7 +740,9 @@
           ],
           "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2630227"
         }
-      ]
+      ],
+      "totalOpenRoles": "50,475",
+      "totalOpenRolesSource": "Stated directly on careers.walmart.com's results page (\"50,475 open roles\"), plus a separate 275,086 listed as upcoming \"Future roles.\""
     },
     {
       "id": "openai",
@@ -1105,7 +1109,9 @@
           ],
           "sourceUrl": "https://openai.com/careers/head-of-data-science-strategic-finance-san-francisco/"
         }
-      ]
+      ],
+      "totalOpenRoles": "828",
+      "totalOpenRolesSource": "Stated directly on openai.com/careers/search (\"828 jobs\")."
     },
     {
       "id": "yc",
@@ -1385,7 +1391,9 @@
           ],
           "sourceUrl": "https://www.workatastartup.com/jobs/108879"
         }
-      ]
+      ],
+      "totalOpenRoles": "2,855+",
+      "totalOpenRolesSource": "Per workatastartup.com/jobs's own banner: \"2,855 more roles behind a free account\" (on top of whatever's visible logged-out) — gated, so this is a floor, not the full count."
     }
   ]
 }

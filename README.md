@@ -13,16 +13,24 @@ guess.
 It's a **static, no-backend prototype**, built to be demoable from GitHub Pages:
 
 - `jobs.json` — **real** job postings scraped once from four different real sources, to
-  show the concept across very different "careers page" shapes:
-  - [Target](https://corporate.target.com/careers) — big-box retail/supply chain (21 roles)
-  - [Walmart](https://careers.walmart.com) — big-box retail/supply chain (22 roles)
-  - [OpenAI](https://openai.com/careers) — frontier AI lab, research/eng/policy/ops (20 roles)
-  - [YC's "Work at a Startup" board](https://www.workatastartup.com/jobs) — a genuinely
-    different shape: one *board*, many different startups each posting their own roles
-    (15 roles across 10 startups, gathered logged-out, no account created)
+  show the concept across very different "careers page" shapes. Each company's sample is
+  a small curated subset — the real total open-role count (pulled directly from each
+  site) is shown in the UI to make the actual scale of the problem visible, even though
+  matching only runs against the sample:
+  - [Target](https://corporate.target.com/careers) — 553+ real open roles sitewide,
+    sample of 21
+  - [Walmart](https://careers.walmart.com) — 50,475 real open roles sitewide (stated
+    directly on their results page), sample of 22
+  - [OpenAI](https://openai.com/careers) — 828 real open roles sitewide (stated directly
+    on their site), sample of 20
+  - [YC's "Work at a Startup" board](https://www.workatastartup.com/jobs) — 2,855+ roles
+    per the board's own "more roles behind a free account" banner, sample of 15 across
+    10 startups (gathered logged-out, no account created) — a genuinely different shape:
+    one *board*, many different startups each posting their own roles
 
   A company switcher lets you pick which real job set to match against; each has its
-  own accent color and source note (with snapshot date) shown in the UI.
+  own accent color, a "real scale vs. sample size" stat, and a source note (with
+  snapshot date) shown in the UI.
 - `index.html` / `style.css` / `app.js` — the page itself. No build step, no framework,
   no npm install.
 - Matching is a **real Claude API call**, made directly from your browser, scoped to
