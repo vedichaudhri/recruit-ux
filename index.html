@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Target Careers — Your Recruiting Agent</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark">◎</span>
+        <span class="brand-name">Target Careers</span>
+      </div>
+      <span class="badge" id="job-count-badge">loading open roles…</span>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <h1>Skip the resume. Tell us what you've actually done.</h1>
+      <p class="hero-sub">
+        Paste your accomplishments in plain language, or upload PDFs — your resume, a LinkedIn
+        export, work samples, whatever you've got. No formatting, no one-page limit. Your
+        recruiting agent will read it, work out your strengths and gaps, and match you against
+        every open role, instead of making you guess which of them applies to you.
+      </p>
+    </section>
+
+    <section class="panel key-panel" id="key-panel">
+      <details id="key-details">
+        <summary>
+          <span class="key-status" id="key-status">① Add your Anthropic API key to activate the agent</span>
+        </summary>
+        <div class="key-body">
+          <p class="key-note">
+            This is a client-side prototype with no backend — your key is stored only in
+            <strong>this browser's localStorage</strong> and sent directly from your browser to
+            Anthropic's API. It is never sent to us or stored anywhere else. Don't use this
+            pattern for a real product; get a key at
+            <a href="https://console.anthropic.com/settings/keys" target="_blank" rel="noopener">console.anthropic.com</a>.
+          </p>
+          <div class="key-row">
+            <input type="password" id="api-key-input" placeholder="sk-ant-..." autocomplete="off" spellcheck="false">
+            <button id="save-key-btn" class="btn btn-secondary">Save in this browser</button>
+            <button id="clear-key-btn" class="btn btn-ghost">Clear</button>
+          </div>
+          <p class="key-note workspace-note">
+            Only needed if your key is scoped to your organization rather than a workspace
+            (Anthropic will say so with an "anthropic-workspace-id" error if so) — find it on your
+            workspace's settings page in the Console.
+          </p>
+          <div class="key-row">
+            <input type="text" id="workspace-id-input" placeholder="Workspace ID (optional)" autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section class="panel">
+      <label for="accomplishments" class="field-label">Your accomplishments, in your own words</label>
+      <textarea id="accomplishments" rows="10" placeholder="e.g. Ran the overnight stocking crew at a 24-hour grocery warehouse for 3 years, trained new hires on forklift safety, cut restock time by 20%... or: Built and shipped a React dashboard used by 200 internal analysts, led a migration to a new data pipeline, mentored 2 junior engineers..."></textarea>
+
+      <div class="upload-divider"><span>and / or</span></div>
+
+      <div class="upload-area">
+        <p class="field-label">Upload PDFs — resume, work samples, your LinkedIn export</p>
+        <p class="upload-hint">
+          No LinkedIn integration here (LinkedIn blocks that) — instead, on your profile use
+          <strong>More → Save to PDF</strong>, then upload the export below alongside anything else.
+        </p>
+        <label class="btn btn-secondary file-btn">
+          Choose PDFs
+          <input type="file" id="pdf-input" accept="application/pdf" multiple hidden>
+        </label>
+        <ul id="file-list" class="file-list"></ul>
+      </div>
+
+      <div class="action-row">
+        <button id="match-btn" class="btn btn-primary">Find my matches</button>
+        <span class="hint">Takes ~10-20 seconds — it's reading all open roles for you.</span>
+      </div>
+      <div id="error-box" class="error-box" hidden></div>
+    </section>
+
+    <section id="results" class="results" hidden>
+      <div class="agent-card">
+        <div class="agent-card-header">
+          <span class="agent-avatar">◎</span>
+          <h2>Your Recruiting Agent</h2>
+        </div>
+        <p id="agent-summary" class="agent-summary"></p>
+        <div class="pros-cons">
+          <div>
+            <h3>Strengths</h3>
+            <ul id="pros-list"></ul>
+          </div>
+          <div>
+            <h3>Growth areas</h3>
+            <ul id="cons-list"></ul>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="matches-heading">Roles worth your time</h2>
+      <div id="matches-list" class="matches-list"></div>
+    </section>
+
+    <div id="loading" class="loading" hidden>
+      <div class="spinner"></div>
+      <p>Reading your background against every open role…</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Prototype UX concept — real job data scraped once from Target's public careers site,
+      real Claude API calls made directly from your browser. Not affiliated with or endorsed
+      by Target. Not a production recruiting system.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

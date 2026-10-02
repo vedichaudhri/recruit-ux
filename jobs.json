@@ -1,0 +1,344 @@
+{
+  "company": "Target",
+  "snapshotDate": "2026-09-30",
+  "sourceNote": "Real, live postings scraped from corporate.target.com/careers on the snapshot date above. This is a frozen sample for demo purposes — some postings may have since closed on Target's actual site.",
+  "jobs": [
+    {
+      "id": "R0000450904",
+      "title": "Data Scientist",
+      "category": "Target Tech",
+      "location": "Bangalore, Karnātaka, IN",
+      "jobType": "Full-time",
+      "payRange": null,
+      "description": "A role with Target Data Science & Engineering means helping develop and manage state-of-the-art predictive algorithms that use data at scale to automate and optimize decisions. You'll use expertise in machine learning, probability & statistics, deep learning, GenAI, NLP, or computer vision, implementing solutions with well-maintained, tested, documented code, and collaborating with Marketing, Supply Chain Optimization, Network Security and Personalization partners.",
+      "requirements": [
+        "4-year degree in a Quantitative discipline (Science, Technology, Engineering, Mathematics) or equivalent experience",
+        "Solid foundations in math and programming; strong fundamentals in Probability, Statistics, Linear Algebra",
+        "Strong hands-on programming in Python, SQL, Hadoop/Hive, ML engineering",
+        "Working knowledge of deep learning, computer vision, GenAI, ML",
+        "Strong analytical thinking and ability to communicate data-driven stories via visualizations and narratives"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w09/04/data-scientist"
+    },
+    {
+      "id": "R0000453849",
+      "title": "Sr Engineer - Managed Kubernetes",
+      "category": "Target Tech",
+      "location": "Bangalore, Karnātaka, IN",
+      "jobType": "Full-time",
+      "payRange": null,
+      "description": "Managed Kubernetes provides the foundational container platform for deploying and operating applications across Target's data centers and public cloud. As Senior Engineer, you'll design, build, and operate reliable cloud-native platform capabilities, own Kubernetes platform components end-to-end, solve complex technical/operational problems independently, and help other engineers grow through technical guidance.",
+      "requirements": [
+        "Deep Kubernetes and platform engineering expertise",
+        "Experience owning platform services through design, implementation, deployment and production operation",
+        "Ability to balance customer needs, reliability, security, maintainability and delivery constraints",
+        "Comfortable operating across public cloud, hybrid cloud, and on-premises environments"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w38/49/sr-engineer-managed-kubernetes"
+    },
+    {
+      "id": "R0000475782",
+      "title": "Director - Real Estate Counsel",
+      "category": "Legal Affairs, Risk & Compliance",
+      "location": "Minneapolis, MN",
+      "jobType": "Full-time",
+      "payRange": "$168,000 - $303,000 USD annually",
+      "description": "The Real Estate Law team provides transactional support, legal advice and strategic direction on matters supporting Target's real estate strategy. As Director – Real Estate Counsel, you'll negotiate and draft real estate transactions (ground/building leases, purchase and sale agreements, easement and development agreements) supporting Target's store portfolio and growth, representing Target externally with developers, landlords and governmental authorities, and partnering with the paralegal team on title review and closings.",
+      "requirements": [
+        "J.D. and active law license; substantial real estate transactional experience",
+        "Experience negotiating and drafting commercial real estate agreements",
+        "Ability to represent the company externally with developers, landlords, co-tenants and government authorities",
+        "Strong collaboration skills working with internal business partners and paralegal teams"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w57/82/director-counsel-real-estate"
+    },
+    {
+      "id": "R0000475302",
+      "title": "Sr Cybersecurity Analyst (Cyber Threat Intelligence)",
+      "category": "Target Tech",
+      "location": "Bangalore, Karnātaka, IN",
+      "jobType": "Full-time",
+      "payRange": null,
+      "description": "As a Senior Cyber Threat Intelligence Analyst, you'll support identification, collection, analysis, production and dissemination of intelligence on cyber threats to Target — converting threat reporting, technical indicators and internal security context into insights that inform detection, response and risk prioritization. You'll analyze indicators of compromise, threat actor TTPs, malware behavior and campaign activity, applying frameworks like the Diamond Model, Cyber Kill Chain and MITRE ATT&CK, and partner with CSIRT, Reverse Engineering and Threat Management teams.",
+      "requirements": [
+        "Experience as an all-source cyber threat intelligence analyst",
+        "Familiarity with structured analytic techniques and frameworks (Diamond Model, Cyber Kill Chain, MITRE ATT&CK)",
+        "Strong analytic rigor, technical curiosity and sound judgment working independently",
+        "Ability to draft and deliver finished intelligence products and briefings"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w53/02/sr-cybersecurity-analyst"
+    },
+    {
+      "id": "R0000446770",
+      "title": "Account Manager, Roundel - Target Product Ads",
+      "category": "Marketing & Digital",
+      "location": "Minneapolis, MN (or NYC)",
+      "jobType": "Full-time",
+      "payRange": "$73,000 - $132,000 USD annually",
+      "description": "Roundel is Target's advertising sell-side media business, built on first-party data and brand-safe environments. As Manager, Account Management, you'll develop a multi-channel, integrated marketing approach across digital platforms for Roundel clients, maintaining highly productive relationships with internal and external partners, and using strong communication skills to tell the story of Roundel's differentiators in the marketplace.",
+      "requirements": [
+        "Client-facing account management experience in digital media/advertising",
+        "Strong communication and relationship-management skills",
+        "Ability to problem-solve tactically while seeing the bigger strategic picture",
+        "Curiosity about the digital advertising space and creative campaign thinking"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w67/70/account-manager,-roundel-target-product-ads-msp-or-nyc"
+    },
+    {
+      "id": "R0000475896",
+      "title": "Loyalty Marketing Analyst",
+      "category": "Marketing & Digital",
+      "location": "Minneapolis, MN",
+      "jobType": "Full-time",
+      "payRange": "$58,100 - $104,600 USD annually",
+      "description": "As a Marketing Associate on Loyalty Member Engagement, you'll manage and oversee incentive and benefits marketing execution across owned and operated channels, influencing marketing strategy and bringing it to life through cross-functional execution management, assessing performance and informing future activations with an analytical skillset.",
+      "requirements": [
+        "Four-year degree or equivalent experience",
+        "2-3 years of experience in marketing analytics, loyalty, or equivalent",
+        "Proficient in data analytics, with ability to analyze and recommend strategies from data",
+        "Strong written/verbal communication across cross-functional and vendor partners"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w58/96/loyalty-marketing-analyst"
+    },
+    {
+      "id": "R0000440436",
+      "title": "Lead Data Analyst",
+      "category": "Marketing & Digital (Data Analytics)",
+      "location": "Bangalore, Karnātaka, IN",
+      "jobType": "Full-time",
+      "payRange": null,
+      "description": "Join the Data Analytics team across Marketing, Merchandising, Supply Chain, Store Operations and Finance, turning data into insights that drive strategic decisions. You'll translate ambiguous business problems into structured analytical approaches, design and deliver analytical and AI-driven solutions (including GenAI and agentic approaches), and work with large-scale datasets on platforms like GCP BigQuery, Spark, and SQL-based warehouses.",
+      "requirements": [
+        "Strong experience translating ambiguous business problems into analytical approaches",
+        "Hands-on experience with BigQuery, Spark, SQL, and pipeline orchestration (e.g. Airflow)",
+        "Experience applying causal, predictive, and prescriptive analytics",
+        "Ability to synthesize complex analysis into clear recommendations for business stakeholders"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w04/36/lead-data-analyst"
+    },
+    {
+      "id": "R0000475819",
+      "title": "Project Planner, Target Printing Services",
+      "category": "Service Centers & Business Enablement",
+      "location": "Brooklyn Park, MN",
+      "jobType": "Full-time",
+      "payRange": "$58,100 - $104,600 USD annually",
+      "description": "Target Printing Services (TPS) drives internal partners' strategy (Marketing, Store Operations) through print and kitting projects. As Print Planner, you'll own estimating, production planning and ordering of materials, partnering with Project and Account Managers to translate approved project requirements into accurate, cost-effective production plans, balancing cost, efficiency, quality and timelines.",
+      "requirements": [
+        "Experience in production planning, estimating, or print/manufacturing operations",
+        "Familiarity with estimating and planning tools (e.g. Monarch Estimating)",
+        "Strong vendor and materials coordination skills",
+        "Detail-oriented with ability to manage multiple concurrent production plans"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w58/19/project-planner-target-printing-services"
+    },
+    {
+      "id": "R0000475762",
+      "title": "Sr Analyst, Domestic First Mile Transportation (Hybrid)",
+      "category": "Global Supply Chain & Logistics",
+      "location": "Minneapolis, MN",
+      "jobType": "Full-time",
+      "payRange": "$73,000 - $132,000 USD annually",
+      "description": "As Senior Analyst on the Domestic First Mile Transportation team, you'll play a critical role optimizing how product moves from vendors into Target's supply chain — leveraging data and operational insight to improve transportation performance, identify network optimization opportunities, and influence strategic decisions strengthening the inbound transportation network. Combines analytical problem solving, program management and relationship management across Transportation, Inventory, Distribution, Merchandising, Technology, Finance and carrier partners.",
+      "requirements": [
+        "Strong analytical and data-driven problem-solving skills",
+        "Experience with transportation, logistics or supply-chain network optimization",
+        "Program/relationship management across cross-functional and external carrier partners",
+        "Comfort operating with ambiguity in a fast-paced environment"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w57/62/sr-analyst,-domestic-first-mile-transportation-hybrid"
+    },
+    {
+      "id": "R0000450965",
+      "title": "Inventory Analyst Intern (Starting Summer 2027)",
+      "category": "Internships",
+      "location": "Minneapolis, MN",
+      "jobType": "Full-time (Internship)",
+      "payRange": "$29.00 USD per hour",
+      "description": "An entry-level internship giving a realistic preview of life as an Inventory Analyst — applying financial, analytical and communication skills to impact the bottom line while delivering products to guests. Interns manage a project from start to finish, present results to department leadership, and gain insight into negotiating and maintaining vendor relationships, with extensive training and development support.",
+      "requirements": [
+        "Current cumulative GPA of 3.0 or above",
+        "Excellent analytical and problem-solving skills",
+        "Strong planning and organizational abilities",
+        "Exceptional leadership qualities and decision-making skills; strong communication"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w09/65/inventory-analyst-intern-minneapolis,-mn-starting-summer,-2027"
+    },
+    {
+      "id": "R0000472981",
+      "title": "Guest Advocate (Cashier or Front of Store/Cart Attendant)",
+      "category": "Store Hourly",
+      "location": "San Francisco, CA",
+      "jobType": "Part-time",
+      "payRange": "$21.50 USD per hour",
+      "description": "Advocates of guest experience who welcome, thank, and exceed service expectations — focusing on guest interaction, loyalty enrollment and store cleanliness, at checklanes, guest services, gift registry, pick-up and drive-up. Builds skills in communicating with guests, problem-solving and decision-making to resolve guest concerns, and promoting store benefits/services.",
+      "requirements": [
+        "Comfortable greeting and interacting with guests in a fast-paced environment",
+        "Ability to adapt to different guest interactions and situations",
+        "Basic comfort with point-of-sale / checkout systems",
+        "Reliable availability for part-time retail scheduling"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w29/81/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t2768"
+    },
+    {
+      "id": "R0000472983",
+      "title": "Specialty Sales — Style Consultant (Style, Tech, Beauty)",
+      "category": "Store Hourly",
+      "location": "San Francisco, CA",
+      "jobType": "Part-time",
+      "payRange": "$21.50 USD per hour",
+      "description": "Style Consultants bring the energy of style to life through strong operations, guest experience and compelling visual merchandising. Responsibilities include driving sales via visual standards and signing, sorting and locating freight, setting visual presentations, maintaining product availability and a full floorpad, and remerchandising as product sells through.",
+      "requirements": [
+        "Interest in retail merchandising, visual presentation, or fashion/beauty/tech categories",
+        "Comfort with physical tasks: sorting freight, stocking, setting displays",
+        "Basic retail business fundamentals (inventory, pricing/promotions awareness) a plus",
+        "Guest-first, team-oriented attitude"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w29/83/specialty-sales-style,-tech,-beauty-t2768"
+    },
+    {
+      "id": "R0000450941",
+      "title": "Specialty Sales Team Leader",
+      "category": "Store Hourly (Leadership)",
+      "location": "San Francisco, CA",
+      "jobType": "Full-time",
+      "payRange": "$29.00 - $31.00 USD per hour (range to $49.30)",
+      "description": "Leads multiple businesses within Apparel & Accessories, Home, Baby, Core Beauty and Electronics, balancing team member expertise across departments. Builds skills in retail business fundamentals (sales trends, inventory management, pricing/promotions), workload planning to hit sales goals, and leading a team of hourly team members including interviewing, developing, coaching and retaining talent.",
+      "requirements": [
+        "Prior experience leading or supervising a retail team",
+        "Retail business fundamentals: sales trends, inventory management, promotions strategy",
+        "Interviewing, coaching and talent-development skills",
+        "Ability to balance multiple departments/businesses at once"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w09/41/specialty-sales-team-leader"
+    },
+    {
+      "id": "R0000452986",
+      "title": "Target Security Specialist",
+      "category": "Store Hourly (Assets Protection)",
+      "location": "San Francisco, CA",
+      "jobType": "Part-time",
+      "payRange": "$24.00 USD per hour",
+      "description": "Assets Protection teams keep guests, team and brand secure and lead through crisis events — protecting profitable sales by mitigating shortage risk and preventing/resolving theft and fraud. Responsibilities include intelligence-led security tactics, crisis response and de-escalation, operating video surveillance systems, and timely documentation of security incidents using case management systems.",
+      "requirements": [
+        "Comfort with crisis response, safety and crowd-management situations",
+        "De-escalation skills and composure under pressure",
+        "Attention to detail for incident documentation",
+        "Ability to build relationships with store leaders and public safety officials"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w29/86/target-security-specialist"
+    },
+    {
+      "id": "R0000437091",
+      "title": "Executive Team Leader HR (Assistant Manager HR)",
+      "category": "Store Leadership",
+      "location": "San Francisco, CA",
+      "jobType": "Full-time",
+      "payRange": "$83,200 - $130,000 USD annually",
+      "description": "Leads a team of HR Experts and Team Leaders supporting the store's sales force, championing change and building diverse, inclusive talent strategies. Spends most of the day on the sales floor as a consultant to peers, creating and managing HR strategy and goals, reading financial reports, applying employment law knowledge, and coaching business leaders on growing their teams.",
+      "requirements": [
+        "Experience managing HR strategy and goals, delivering results through a team",
+        "Knowledge of federal, state and local employment law",
+        "Recruiting, selecting and talent-management experience for hourly team members and leaders",
+        "Ability to read financial reporting and interpret data; coach/consult with senior business leaders"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w70/91/executive-team-leader-human-resources-assistant-manager-hr-san-francisco,-ca"
+    },
+    {
+      "id": "R0000472979",
+      "title": "General Merchandise, Closing, Fulfillment (Fulfillment Expert)",
+      "category": "Store Hourly",
+      "location": "San Francisco, CA",
+      "jobType": "Part-time",
+      "payRange": "$21.50 USD per hour",
+      "description": "Fulfillment Experts pick, prep, pack, sort and ship products safely and efficiently to deliver on guest digital orders (order pickup, drive up, ship to home). Work changes daily based on guest ordering patterns, using reporting systems to meet shifting digital demand while maintaining accuracy, timeliness and safety standards.",
+      "requirements": [
+        "Comfort in a fast-changing, task-switching warehouse-style store environment",
+        "Basic systems literacy for order-management tools",
+        "Attention to accuracy and timeliness under demand swings",
+        "Ability to follow safety/food-safety procedures"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w29/79/general-merchandise,-closing,-fulfillment-t2768"
+    },
+    {
+      "id": "R0000447662",
+      "title": "Warehouse Operations (Warehouse Associate / Warehouse Worker)",
+      "category": "Supply Chain Hourly",
+      "location": "Newton, NC",
+      "jobType": "Full-time",
+      "payRange": "$20.00 - $25.30 USD per hour depending on role",
+      "description": "Warehouse Operations roles pack, load and ship items to stores and guests, ensuring accurate processing of merchandise and safely/efficiently handling freight and moving inventory throughout the distribution center. Includes safety training, basic math and label-reading tasks, and operating warehouse computer systems or handheld devices.",
+      "requirements": [
+        "Able to lift and carry merchandise 35-60 lbs during a shift",
+        "Comfortable standing, walking, pushing/pulling, squatting, bending and reaching during shifts",
+        "Basic math (counting, addition, subtraction) and label-reading accuracy",
+        "Able to operate computer systems or handheld scanners after training"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w76/62/full-time-hourly-warehouse-operations-t3811"
+    },
+    {
+      "id": "R0000447598",
+      "title": "Warehouse Worker - Food Distribution Center",
+      "category": "Supply Chain Hourly",
+      "location": "Windsor, CT",
+      "jobType": "Full-time",
+      "payRange": "$24.80 - $29.61 USD per hour",
+      "description": "Warehouse Workers at the food distribution center pack, load and ship items to stores and guests, working safely and efficiently to handle freight and move inventory, including at heights on mezzanines. Role includes training to safely operate powered equipment such as pallet riders, scissor lifts and forklifts.",
+      "requirements": [
+        "Able to lift/carry merchandise 35-60 lbs and push utility carts up to 60 lbs",
+        "Comfortable working at heights (up to 40 ft on a mezzanine where applicable)",
+        "Willingness to be trained on and operate powered equipment (forklift, pallet rider, scissor lift)",
+        "Good written and oral communication skills"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w75/98/warehouse-worker-food-distribution-center-t3735"
+    },
+    {
+      "id": "R0000475801",
+      "title": "Senior Target Security Specialist - Flow Center",
+      "category": "Assets Protection & Corporate Security",
+      "location": "Hampton, GA",
+      "jobType": "Full-time",
+      "payRange": "$20.82 - $37.45 USD per hour",
+      "description": "Leads a physical security and safety culture at a Target supply-chain facility through best practices and program management. Executes strategic routines to identify, prevent and investigate theft and shortage leveraging technology, stores and supply-chain partnerships, and reporting/security tactics; operates Target-owned vehicles for yard and perimeter patrol.",
+      "requirements": [
+        "Experience in physical security, loss prevention, or asset protection",
+        "Comfortable leading investigative/patrol routines independently",
+        "Valid driver's license for yard/perimeter vehicle patrol",
+        "Strong cross-team partnership skills (stores, supply chain, corporate security)"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w58/01/senior-target-security-specialist-flow-center-hampton,-ga"
+    },
+    {
+      "id": "R0000441607",
+      "title": "Sr AI Engineer",
+      "category": "Target Tech",
+      "location": "Bangalore, Karnātaka, IN",
+      "jobType": "Full-time",
+      "payRange": null,
+      "description": "Target's Advanced AI team builds end-to-end AI/ML systems creating business value across the enterprise, powered by LLMs, classical ML, or deep learning, designed as scalable, production-grade applications including agentic architectures. As Senior AI Engineer, you'll build, deploy and maintain AI/ML applications supporting automation, insight and action across core business workflows, writing maintainable code, building APIs/services, and supporting deployment and monitoring.",
+      "requirements": [
+        "Hands-on experience building and deploying production-grade AI/ML applications",
+        "Experience with LLM-based or agentic system architectures",
+        "Strong software engineering fundamentals: testing, APIs, deployment, monitoring",
+        "Ability to turn ambiguous business problems into practical technical solutions"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w16/07/sr-ai-engineer"
+    },
+    {
+      "id": "R0000453977",
+      "title": "Warehouse Operations - $1,000 Sign-On Bonus (Warehouse Associate / Worker)",
+      "category": "Supply Chain Hourly",
+      "location": "Wilton, NY",
+      "jobType": "Full-time",
+      "payRange": "$22.05 - $28.71 USD per hour",
+      "description": "Warehouse Operations roles pack, load and ship items to stores and guests, safely and efficiently handling freight and moving inventory through the distribution center, with a $1,000 sign-on bonus for seasonal and permanent positions hired in the current window.",
+      "requirements": [
+        "Able to lift and carry merchandise 35-60 lbs during a shift",
+        "Comfortable with varied shift schedules (day/evening/overnight)",
+        "Basic math and label-reading accuracy",
+        "Team-oriented, safety-first attitude in a fast-paced environment"
+      ],
+      "sourceUrl": "https://corporate.target.com/jobs/w39/77/full-time-hourly-warehouse-operations-openings-$1,000-sign-on-bonus-t0579"
+    }
+  ]
+}
