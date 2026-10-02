@@ -1,14 +1,27 @@
 const STORAGE_KEY = "recruiting-agent-anthropic-key";
 const WORKSPACE_STORAGE_KEY = "recruiting-agent-anthropic-workspace-id";
+const COMPANY_STORAGE_KEY = "recruiting-agent-selected-company";
 const MODEL = "claude-sonnet-5";
 const PDFJS_VERSION = "6.3.289";
+const DEFAULT_ACCENT = "#cc0000";
 
-let jobs = [];
+let companies = [];
+let selectedCompanyId = null;
 let uploadedFiles = []; // { id, name, status: 'parsing'|'done'|'error', text, error }
 let pdfjsPromise = null;
 
+function getCurrentCompany() {
+  return companies.find((c) => c.id === selectedCompanyId) || null;
+}
+
+function getCurrentJobs() {
+  return getCurrentCompany()?.jobs || [];
+}
+
 const el = {
   badge: document.getElementById("job-count-badge"),
+  companyTabs: document.getElementById("company-tabs"),
+  companySourceNote: document.getElementById("company-source-note"),
   keyDetails: document.getElementById("key-details"),
   keyStatus: document.getElementById("key-status"),
   keyInput: document.getElementById("api-key-input"),
@@ -173,22 +186,72 @@ function getCombinedText() {
   return parts.join("\n\n");
 }
 
+function renderCompanyTabs() {
+  el.companyTabs.innerHTML = "";
+  companies.forEach((c) => {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "company-tab" + (c.id === selectedCompanyId ? " active" : "");
+    btn.textContent = c.name;
+    btn.addEventListener("click", () => selectCompany(c.id));
+    el.companyTabs.appendChild(btn);
+  });
+}
+
+function selectCompany(id) {
+  if (!companies.some((c) => c.id === id)) return;
+  selectedCompanyId = id;
+  try {
+    localStorage.setItem(COMPANY_STORAGE_KEY, id);
+  } catch {}
+
+  const company = getCurrentCompany();
+  document.documentElement.style.setProperty("--accent", company.accentColor || DEFAULT_ACCENT);
+
+  const jobCount = company.jobs.length;
+  el.badge.textContent =
+    company.id === "yc"
+      ? `Searching ${jobCount} real startup roles from ${company.name}`
+      : `Searching ${jobCount} open roles at ${company.name}`;
+  el.companySourceNote.textContent = `${company.sourceNote} (snapshot: ${company.snapshotDate})`;
+
+  renderCompanyTabs();
+  clearError();
+  el.results.hidden = true;
+}
+
 async function loadJobs() {
   const res = await fetch("jobs.json");
   const data = await res.json();
-  jobs = data.jobs;
-  el.badge.textContent = `Searching ${jobs.length} open roles across Stores, Supply Chain, Target Tech & Corporate`;
+  companies = data.companies;
+
+  let initialId = null;
+  try {
+    initialId = localStorage.getItem(COMPANY_STORAGE_KEY);
+  } catch {}
+  if (!initialId || !companies.some((c) => c.id === initialId)) {
+    initialId = companies[0]?.id;
+  }
+  selectCompany(initialId);
 }
 
 function buildPrompt(accomplishments) {
-  const jobList = jobs
-    .map(
-      (j) =>
-        `ID: ${j.id}\nTitle: ${j.title}\nCategory: ${j.category}\nLocation: ${j.location}\nType: ${j.jobType}\nDescription: ${j.description}\nRequirements: ${j.requirements.join("; ")}`
-    )
+  const company = getCurrentCompany();
+  const currentJobs = getCurrentJobs();
+
+  const jobList = currentJobs
+    .map((j) => {
+      const orgLine = j.companyName ? `Posted by: ${j.companyName}\n` : "";
+      return `ID: ${j.id}\n${orgLine}Title: ${j.title}\nCategory: ${j.category}\nLocation: ${j.location}\nType: ${j.jobType}\nDescription: ${j.description}\nRequirements: ${j.requirements.join("; ")}`;
+    })
     .join("\n---\n");
 
-  return `You are a recruiting agent for Target's careers site. A candidate has given you their background as free-form text — this may be hand-typed notes, text extracted from one or more uploaded PDFs (resume, LinkedIn "Save to PDF" export, work samples), or a mix of both, concatenated below with "--- From uploaded file: ... ---" markers where a file starts. Treat it all as one candidate. Your job: (1) build a short honest profile of them, and (2) match them against the real open roles listed below, ranking the ones genuinely worth their time.
+  const sourceDescription =
+    company.id === "yc"
+      ? `the YC "Work at a Startup" job board, which lists real openings from many different YC-backed startups (each role below says which startup posted it)`
+      : `${company.name}'s careers site`;
+
+  return `You are a recruiting agent for ${sourceDescription}. A candidate has given you their background as free-form text — this may be hand-typed notes, text extracted from one or more uploaded PDFs (resume, LinkedIn "Save to PDF" export, work samples), or a mix of both, concatenated below with "--- From uploaded file: ... ---" markers where a file starts. Treat it all as one candidate. Your job: (1) build a short honest profile of them, and (2) match them against the real open roles listed below, ranking the ones genuinely worth their time.
 
 CANDIDATE'S BACKGROUND (verbatim, plain text, possibly multiple sources):
 """
@@ -213,7 +276,7 @@ Respond with ONLY a single JSON object, no markdown fences, no commentary, match
   ]
 }
 
-Rules: only include roles in "matches" that are plausibly relevant (don't force-fit all ${jobs.length} roles) — typically 3 to 8 matches, sorted by fit_score descending. Be honest and specific, grounded in the actual role descriptions and the candidate's actual words, not generic reassurance.`;
+Rules: only include roles in "matches" that are plausibly relevant (don't force-fit all ${currentJobs.length} roles) — typically 3 to 8 matches, sorted by fit_score descending. Be honest and specific, grounded in the actual role descriptions and the candidate's actual words, not generic reassurance.`;
 }
 
 function extractJson(text) {
@@ -289,18 +352,19 @@ function renderResults(parsed) {
   }
 
   matches.forEach((m) => {
-    const job = jobs.find((j) => j.id === m.job_id);
+    const job = getCurrentJobs().find((j) => j.id === m.job_id);
     if (!job) return;
 
     const card = document.createElement("div");
     card.className = "match-card";
 
     const scoreClass = m.fit_score >= 70 ? "" : "mid";
+    const titleText = job.companyName ? `${job.title} — ${job.companyName}` : job.title;
 
     card.innerHTML = `
       <div class="match-top">
         <div>
-          <p class="match-title">${job.title}</p>
+          <p class="match-title">${titleText}</p>
           <p class="match-meta">${job.category} · ${job.location} · ${job.jobType}${job.payRange ? " · " + job.payRange : ""}</p>
         </div>
         <span class="fit-score ${scoreClass}">${m.fit_score}% fit</span>

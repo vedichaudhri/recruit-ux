@@ -1,344 +1,1391 @@
 {
-  "company": "Target",
-  "snapshotDate": "2026-09-30",
-  "sourceNote": "Real, live postings scraped from corporate.target.com/careers on the snapshot date above. This is a frozen sample for demo purposes — some postings may have since closed on Target's actual site.",
-  "jobs": [
+  "companies": [
     {
-      "id": "R0000450904",
-      "title": "Data Scientist",
-      "category": "Target Tech",
-      "location": "Bangalore, Karnātaka, IN",
-      "jobType": "Full-time",
-      "payRange": null,
-      "description": "A role with Target Data Science & Engineering means helping develop and manage state-of-the-art predictive algorithms that use data at scale to automate and optimize decisions. You'll use expertise in machine learning, probability & statistics, deep learning, GenAI, NLP, or computer vision, implementing solutions with well-maintained, tested, documented code, and collaborating with Marketing, Supply Chain Optimization, Network Security and Personalization partners.",
-      "requirements": [
-        "4-year degree in a Quantitative discipline (Science, Technology, Engineering, Mathematics) or equivalent experience",
-        "Solid foundations in math and programming; strong fundamentals in Probability, Statistics, Linear Algebra",
-        "Strong hands-on programming in Python, SQL, Hadoop/Hive, ML engineering",
-        "Working knowledge of deep learning, computer vision, GenAI, ML",
-        "Strong analytical thinking and ability to communicate data-driven stories via visualizations and narratives"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w09/04/data-scientist"
+      "id": "target",
+      "name": "Target",
+      "tagline": "Big-box retail & supply chain — 100s of openings",
+      "accentColor": "#cc0000",
+      "snapshotDate": "2026-09-30",
+      "sourceNote": "Real, live postings scraped from corporate.target.com/careers on the snapshot date above. This is a frozen sample for demo purposes — some postings may have since closed on Target's actual site.",
+      "jobs": [
+        {
+          "id": "R0000450904",
+          "title": "Data Scientist",
+          "category": "Target Tech",
+          "location": "Bangalore, Karnātaka, IN",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "A role with Target Data Science & Engineering means helping develop and manage state-of-the-art predictive algorithms that use data at scale to automate and optimize decisions. You'll use expertise in machine learning, probability & statistics, deep learning, GenAI, NLP, or computer vision, implementing solutions with well-maintained, tested, documented code, and collaborating with Marketing, Supply Chain Optimization, Network Security and Personalization partners.",
+          "requirements": [
+            "4-year degree in a Quantitative discipline (Science, Technology, Engineering, Mathematics) or equivalent experience",
+            "Solid foundations in math and programming; strong fundamentals in Probability, Statistics, Linear Algebra",
+            "Strong hands-on programming in Python, SQL, Hadoop/Hive, ML engineering",
+            "Working knowledge of deep learning, computer vision, GenAI, ML",
+            "Strong analytical thinking and ability to communicate data-driven stories via visualizations and narratives"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w09/04/data-scientist"
+        },
+        {
+          "id": "R0000453849",
+          "title": "Sr Engineer - Managed Kubernetes",
+          "category": "Target Tech",
+          "location": "Bangalore, Karnātaka, IN",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "Managed Kubernetes provides the foundational container platform for deploying and operating applications across Target's data centers and public cloud. As Senior Engineer, you'll design, build, and operate reliable cloud-native platform capabilities, own Kubernetes platform components end-to-end, solve complex technical/operational problems independently, and help other engineers grow through technical guidance.",
+          "requirements": [
+            "Deep Kubernetes and platform engineering expertise",
+            "Experience owning platform services through design, implementation, deployment and production operation",
+            "Ability to balance customer needs, reliability, security, maintainability and delivery constraints",
+            "Comfortable operating across public cloud, hybrid cloud, and on-premises environments"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w38/49/sr-engineer-managed-kubernetes"
+        },
+        {
+          "id": "R0000475782",
+          "title": "Director - Real Estate Counsel",
+          "category": "Legal Affairs, Risk & Compliance",
+          "location": "Minneapolis, MN",
+          "jobType": "Full-time",
+          "payRange": "$168,000 - $303,000 USD annually",
+          "description": "The Real Estate Law team provides transactional support, legal advice and strategic direction on matters supporting Target's real estate strategy. As Director – Real Estate Counsel, you'll negotiate and draft real estate transactions (ground/building leases, purchase and sale agreements, easement and development agreements) supporting Target's store portfolio and growth, representing Target externally with developers, landlords and governmental authorities, and partnering with the paralegal team on title review and closings.",
+          "requirements": [
+            "J.D. and active law license; substantial real estate transactional experience",
+            "Experience negotiating and drafting commercial real estate agreements",
+            "Ability to represent the company externally with developers, landlords, co-tenants and government authorities",
+            "Strong collaboration skills working with internal business partners and paralegal teams"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w57/82/director-counsel-real-estate"
+        },
+        {
+          "id": "R0000475302",
+          "title": "Sr Cybersecurity Analyst (Cyber Threat Intelligence)",
+          "category": "Target Tech",
+          "location": "Bangalore, Karnātaka, IN",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "As a Senior Cyber Threat Intelligence Analyst, you'll support identification, collection, analysis, production and dissemination of intelligence on cyber threats to Target — converting threat reporting, technical indicators and internal security context into insights that inform detection, response and risk prioritization. You'll analyze indicators of compromise, threat actor TTPs, malware behavior and campaign activity, applying frameworks like the Diamond Model, Cyber Kill Chain and MITRE ATT&CK, and partner with CSIRT, Reverse Engineering and Threat Management teams.",
+          "requirements": [
+            "Experience as an all-source cyber threat intelligence analyst",
+            "Familiarity with structured analytic techniques and frameworks (Diamond Model, Cyber Kill Chain, MITRE ATT&CK)",
+            "Strong analytic rigor, technical curiosity and sound judgment working independently",
+            "Ability to draft and deliver finished intelligence products and briefings"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w53/02/sr-cybersecurity-analyst"
+        },
+        {
+          "id": "R0000446770",
+          "title": "Account Manager, Roundel - Target Product Ads",
+          "category": "Marketing & Digital",
+          "location": "Minneapolis, MN (or NYC)",
+          "jobType": "Full-time",
+          "payRange": "$73,000 - $132,000 USD annually",
+          "description": "Roundel is Target's advertising sell-side media business, built on first-party data and brand-safe environments. As Manager, Account Management, you'll develop a multi-channel, integrated marketing approach across digital platforms for Roundel clients, maintaining highly productive relationships with internal and external partners, and using strong communication skills to tell the story of Roundel's differentiators in the marketplace.",
+          "requirements": [
+            "Client-facing account management experience in digital media/advertising",
+            "Strong communication and relationship-management skills",
+            "Ability to problem-solve tactically while seeing the bigger strategic picture",
+            "Curiosity about the digital advertising space and creative campaign thinking"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w67/70/account-manager,-roundel-target-product-ads-msp-or-nyc"
+        },
+        {
+          "id": "R0000475896",
+          "title": "Loyalty Marketing Analyst",
+          "category": "Marketing & Digital",
+          "location": "Minneapolis, MN",
+          "jobType": "Full-time",
+          "payRange": "$58,100 - $104,600 USD annually",
+          "description": "As a Marketing Associate on Loyalty Member Engagement, you'll manage and oversee incentive and benefits marketing execution across owned and operated channels, influencing marketing strategy and bringing it to life through cross-functional execution management, assessing performance and informing future activations with an analytical skillset.",
+          "requirements": [
+            "Four-year degree or equivalent experience",
+            "2-3 years of experience in marketing analytics, loyalty, or equivalent",
+            "Proficient in data analytics, with ability to analyze and recommend strategies from data",
+            "Strong written/verbal communication across cross-functional and vendor partners"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w58/96/loyalty-marketing-analyst"
+        },
+        {
+          "id": "R0000440436",
+          "title": "Lead Data Analyst",
+          "category": "Marketing & Digital (Data Analytics)",
+          "location": "Bangalore, Karnātaka, IN",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "Join the Data Analytics team across Marketing, Merchandising, Supply Chain, Store Operations and Finance, turning data into insights that drive strategic decisions. You'll translate ambiguous business problems into structured analytical approaches, design and deliver analytical and AI-driven solutions (including GenAI and agentic approaches), and work with large-scale datasets on platforms like GCP BigQuery, Spark, and SQL-based warehouses.",
+          "requirements": [
+            "Strong experience translating ambiguous business problems into analytical approaches",
+            "Hands-on experience with BigQuery, Spark, SQL, and pipeline orchestration (e.g. Airflow)",
+            "Experience applying causal, predictive, and prescriptive analytics",
+            "Ability to synthesize complex analysis into clear recommendations for business stakeholders"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w04/36/lead-data-analyst"
+        },
+        {
+          "id": "R0000475819",
+          "title": "Project Planner, Target Printing Services",
+          "category": "Service Centers & Business Enablement",
+          "location": "Brooklyn Park, MN",
+          "jobType": "Full-time",
+          "payRange": "$58,100 - $104,600 USD annually",
+          "description": "Target Printing Services (TPS) drives internal partners' strategy (Marketing, Store Operations) through print and kitting projects. As Print Planner, you'll own estimating, production planning and ordering of materials, partnering with Project and Account Managers to translate approved project requirements into accurate, cost-effective production plans, balancing cost, efficiency, quality and timelines.",
+          "requirements": [
+            "Experience in production planning, estimating, or print/manufacturing operations",
+            "Familiarity with estimating and planning tools (e.g. Monarch Estimating)",
+            "Strong vendor and materials coordination skills",
+            "Detail-oriented with ability to manage multiple concurrent production plans"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w58/19/project-planner-target-printing-services"
+        },
+        {
+          "id": "R0000475762",
+          "title": "Sr Analyst, Domestic First Mile Transportation (Hybrid)",
+          "category": "Global Supply Chain & Logistics",
+          "location": "Minneapolis, MN",
+          "jobType": "Full-time",
+          "payRange": "$73,000 - $132,000 USD annually",
+          "description": "As Senior Analyst on the Domestic First Mile Transportation team, you'll play a critical role optimizing how product moves from vendors into Target's supply chain — leveraging data and operational insight to improve transportation performance, identify network optimization opportunities, and influence strategic decisions strengthening the inbound transportation network. Combines analytical problem solving, program management and relationship management across Transportation, Inventory, Distribution, Merchandising, Technology, Finance and carrier partners.",
+          "requirements": [
+            "Strong analytical and data-driven problem-solving skills",
+            "Experience with transportation, logistics or supply-chain network optimization",
+            "Program/relationship management across cross-functional and external carrier partners",
+            "Comfort operating with ambiguity in a fast-paced environment"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w57/62/sr-analyst,-domestic-first-mile-transportation-hybrid"
+        },
+        {
+          "id": "R0000450965",
+          "title": "Inventory Analyst Intern (Starting Summer 2027)",
+          "category": "Internships",
+          "location": "Minneapolis, MN",
+          "jobType": "Full-time (Internship)",
+          "payRange": "$29.00 USD per hour",
+          "description": "An entry-level internship giving a realistic preview of life as an Inventory Analyst — applying financial, analytical and communication skills to impact the bottom line while delivering products to guests. Interns manage a project from start to finish, present results to department leadership, and gain insight into negotiating and maintaining vendor relationships, with extensive training and development support.",
+          "requirements": [
+            "Current cumulative GPA of 3.0 or above",
+            "Excellent analytical and problem-solving skills",
+            "Strong planning and organizational abilities",
+            "Exceptional leadership qualities and decision-making skills; strong communication"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w09/65/inventory-analyst-intern-minneapolis,-mn-starting-summer,-2027"
+        },
+        {
+          "id": "R0000472981",
+          "title": "Guest Advocate (Cashier or Front of Store/Cart Attendant)",
+          "category": "Store Hourly",
+          "location": "San Francisco, CA",
+          "jobType": "Part-time",
+          "payRange": "$21.50 USD per hour",
+          "description": "Advocates of guest experience who welcome, thank, and exceed service expectations — focusing on guest interaction, loyalty enrollment and store cleanliness, at checklanes, guest services, gift registry, pick-up and drive-up. Builds skills in communicating with guests, problem-solving and decision-making to resolve guest concerns, and promoting store benefits/services.",
+          "requirements": [
+            "Comfortable greeting and interacting with guests in a fast-paced environment",
+            "Ability to adapt to different guest interactions and situations",
+            "Basic comfort with point-of-sale / checkout systems",
+            "Reliable availability for part-time retail scheduling"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w29/81/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t2768"
+        },
+        {
+          "id": "R0000472983",
+          "title": "Specialty Sales — Style Consultant (Style, Tech, Beauty)",
+          "category": "Store Hourly",
+          "location": "San Francisco, CA",
+          "jobType": "Part-time",
+          "payRange": "$21.50 USD per hour",
+          "description": "Style Consultants bring the energy of style to life through strong operations, guest experience and compelling visual merchandising. Responsibilities include driving sales via visual standards and signing, sorting and locating freight, setting visual presentations, maintaining product availability and a full floorpad, and remerchandising as product sells through.",
+          "requirements": [
+            "Interest in retail merchandising, visual presentation, or fashion/beauty/tech categories",
+            "Comfort with physical tasks: sorting freight, stocking, setting displays",
+            "Basic retail business fundamentals (inventory, pricing/promotions awareness) a plus",
+            "Guest-first, team-oriented attitude"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w29/83/specialty-sales-style,-tech,-beauty-t2768"
+        },
+        {
+          "id": "R0000450941",
+          "title": "Specialty Sales Team Leader",
+          "category": "Store Hourly (Leadership)",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$29.00 - $31.00 USD per hour (range to $49.30)",
+          "description": "Leads multiple businesses within Apparel & Accessories, Home, Baby, Core Beauty and Electronics, balancing team member expertise across departments. Builds skills in retail business fundamentals (sales trends, inventory management, pricing/promotions), workload planning to hit sales goals, and leading a team of hourly team members including interviewing, developing, coaching and retaining talent.",
+          "requirements": [
+            "Prior experience leading or supervising a retail team",
+            "Retail business fundamentals: sales trends, inventory management, promotions strategy",
+            "Interviewing, coaching and talent-development skills",
+            "Ability to balance multiple departments/businesses at once"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w09/41/specialty-sales-team-leader"
+        },
+        {
+          "id": "R0000452986",
+          "title": "Target Security Specialist",
+          "category": "Store Hourly (Assets Protection)",
+          "location": "San Francisco, CA",
+          "jobType": "Part-time",
+          "payRange": "$24.00 USD per hour",
+          "description": "Assets Protection teams keep guests, team and brand secure and lead through crisis events — protecting profitable sales by mitigating shortage risk and preventing/resolving theft and fraud. Responsibilities include intelligence-led security tactics, crisis response and de-escalation, operating video surveillance systems, and timely documentation of security incidents using case management systems.",
+          "requirements": [
+            "Comfort with crisis response, safety and crowd-management situations",
+            "De-escalation skills and composure under pressure",
+            "Attention to detail for incident documentation",
+            "Ability to build relationships with store leaders and public safety officials"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w29/86/target-security-specialist"
+        },
+        {
+          "id": "R0000437091",
+          "title": "Executive Team Leader HR (Assistant Manager HR)",
+          "category": "Store Leadership",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$83,200 - $130,000 USD annually",
+          "description": "Leads a team of HR Experts and Team Leaders supporting the store's sales force, championing change and building diverse, inclusive talent strategies. Spends most of the day on the sales floor as a consultant to peers, creating and managing HR strategy and goals, reading financial reports, applying employment law knowledge, and coaching business leaders on growing their teams.",
+          "requirements": [
+            "Experience managing HR strategy and goals, delivering results through a team",
+            "Knowledge of federal, state and local employment law",
+            "Recruiting, selecting and talent-management experience for hourly team members and leaders",
+            "Ability to read financial reporting and interpret data; coach/consult with senior business leaders"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w70/91/executive-team-leader-human-resources-assistant-manager-hr-san-francisco,-ca"
+        },
+        {
+          "id": "R0000472979",
+          "title": "General Merchandise, Closing, Fulfillment (Fulfillment Expert)",
+          "category": "Store Hourly",
+          "location": "San Francisco, CA",
+          "jobType": "Part-time",
+          "payRange": "$21.50 USD per hour",
+          "description": "Fulfillment Experts pick, prep, pack, sort and ship products safely and efficiently to deliver on guest digital orders (order pickup, drive up, ship to home). Work changes daily based on guest ordering patterns, using reporting systems to meet shifting digital demand while maintaining accuracy, timeliness and safety standards.",
+          "requirements": [
+            "Comfort in a fast-changing, task-switching warehouse-style store environment",
+            "Basic systems literacy for order-management tools",
+            "Attention to accuracy and timeliness under demand swings",
+            "Ability to follow safety/food-safety procedures"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w29/79/general-merchandise,-closing,-fulfillment-t2768"
+        },
+        {
+          "id": "R0000447662",
+          "title": "Warehouse Operations (Warehouse Associate / Warehouse Worker)",
+          "category": "Supply Chain Hourly",
+          "location": "Newton, NC",
+          "jobType": "Full-time",
+          "payRange": "$20.00 - $25.30 USD per hour depending on role",
+          "description": "Warehouse Operations roles pack, load and ship items to stores and guests, ensuring accurate processing of merchandise and safely/efficiently handling freight and moving inventory throughout the distribution center. Includes safety training, basic math and label-reading tasks, and operating warehouse computer systems or handheld devices.",
+          "requirements": [
+            "Able to lift and carry merchandise 35-60 lbs during a shift",
+            "Comfortable standing, walking, pushing/pulling, squatting, bending and reaching during shifts",
+            "Basic math (counting, addition, subtraction) and label-reading accuracy",
+            "Able to operate computer systems or handheld scanners after training"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w76/62/full-time-hourly-warehouse-operations-t3811"
+        },
+        {
+          "id": "R0000447598",
+          "title": "Warehouse Worker - Food Distribution Center",
+          "category": "Supply Chain Hourly",
+          "location": "Windsor, CT",
+          "jobType": "Full-time",
+          "payRange": "$24.80 - $29.61 USD per hour",
+          "description": "Warehouse Workers at the food distribution center pack, load and ship items to stores and guests, working safely and efficiently to handle freight and move inventory, including at heights on mezzanines. Role includes training to safely operate powered equipment such as pallet riders, scissor lifts and forklifts.",
+          "requirements": [
+            "Able to lift/carry merchandise 35-60 lbs and push utility carts up to 60 lbs",
+            "Comfortable working at heights (up to 40 ft on a mezzanine where applicable)",
+            "Willingness to be trained on and operate powered equipment (forklift, pallet rider, scissor lift)",
+            "Good written and oral communication skills"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w75/98/warehouse-worker-food-distribution-center-t3735"
+        },
+        {
+          "id": "R0000475801",
+          "title": "Senior Target Security Specialist - Flow Center",
+          "category": "Assets Protection & Corporate Security",
+          "location": "Hampton, GA",
+          "jobType": "Full-time",
+          "payRange": "$20.82 - $37.45 USD per hour",
+          "description": "Leads a physical security and safety culture at a Target supply-chain facility through best practices and program management. Executes strategic routines to identify, prevent and investigate theft and shortage leveraging technology, stores and supply-chain partnerships, and reporting/security tactics; operates Target-owned vehicles for yard and perimeter patrol.",
+          "requirements": [
+            "Experience in physical security, loss prevention, or asset protection",
+            "Comfortable leading investigative/patrol routines independently",
+            "Valid driver's license for yard/perimeter vehicle patrol",
+            "Strong cross-team partnership skills (stores, supply chain, corporate security)"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w58/01/senior-target-security-specialist-flow-center-hampton,-ga"
+        },
+        {
+          "id": "R0000441607",
+          "title": "Sr AI Engineer",
+          "category": "Target Tech",
+          "location": "Bangalore, Karnātaka, IN",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "Target's Advanced AI team builds end-to-end AI/ML systems creating business value across the enterprise, powered by LLMs, classical ML, or deep learning, designed as scalable, production-grade applications including agentic architectures. As Senior AI Engineer, you'll build, deploy and maintain AI/ML applications supporting automation, insight and action across core business workflows, writing maintainable code, building APIs/services, and supporting deployment and monitoring.",
+          "requirements": [
+            "Hands-on experience building and deploying production-grade AI/ML applications",
+            "Experience with LLM-based or agentic system architectures",
+            "Strong software engineering fundamentals: testing, APIs, deployment, monitoring",
+            "Ability to turn ambiguous business problems into practical technical solutions"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w16/07/sr-ai-engineer"
+        },
+        {
+          "id": "R0000453977",
+          "title": "Warehouse Operations - $1,000 Sign-On Bonus (Warehouse Associate / Worker)",
+          "category": "Supply Chain Hourly",
+          "location": "Wilton, NY",
+          "jobType": "Full-time",
+          "payRange": "$22.05 - $28.71 USD per hour",
+          "description": "Warehouse Operations roles pack, load and ship items to stores and guests, safely and efficiently handling freight and moving inventory through the distribution center, with a $1,000 sign-on bonus for seasonal and permanent positions hired in the current window.",
+          "requirements": [
+            "Able to lift and carry merchandise 35-60 lbs during a shift",
+            "Comfortable with varied shift schedules (day/evening/overnight)",
+            "Basic math and label-reading accuracy",
+            "Team-oriented, safety-first attitude in a fast-paced environment"
+          ],
+          "sourceUrl": "https://corporate.target.com/jobs/w39/77/full-time-hourly-warehouse-operations-openings-$1,000-sign-on-bonus-t0579"
+        }
+      ]
     },
     {
-      "id": "R0000453849",
-      "title": "Sr Engineer - Managed Kubernetes",
-      "category": "Target Tech",
-      "location": "Bangalore, Karnātaka, IN",
-      "jobType": "Full-time",
-      "payRange": null,
-      "description": "Managed Kubernetes provides the foundational container platform for deploying and operating applications across Target's data centers and public cloud. As Senior Engineer, you'll design, build, and operate reliable cloud-native platform capabilities, own Kubernetes platform components end-to-end, solve complex technical/operational problems independently, and help other engineers grow through technical guidance.",
-      "requirements": [
-        "Deep Kubernetes and platform engineering expertise",
-        "Experience owning platform services through design, implementation, deployment and production operation",
-        "Ability to balance customer needs, reliability, security, maintainability and delivery constraints",
-        "Comfortable operating across public cloud, hybrid cloud, and on-premises environments"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w38/49/sr-engineer-managed-kubernetes"
+      "id": "walmart",
+      "name": "Walmart",
+      "tagline": "Big-box retail & supply chain — 100s of openings",
+      "accentColor": "#0071ce",
+      "snapshotDate": "2026-10-02",
+      "sourceNote": "Real, live postings scraped from careers.walmart.com on the snapshot date above — a frozen sample for demo purposes.",
+      "jobs": [
+        {
+          "id": "CP-5991-9004",
+          "title": "Asset Protection Associate",
+          "category": "Stores and Clubs : Security and Asset Protection",
+          "location": "Wichita, KS",
+          "jobType": "Full-time",
+          "payRange": "$17.00 - $30.00/hr",
+          "description": "This role focuses on the safety and security of associates, customers, and merchandise at a Neighborhood Market location, including investigating issues and working to solve complex problems. The associate is often the first, last, or only Walmart representative a customer interacts with, so smiling, greeting, and thanking every customer is central to the job. The pace can be intense during evenings, weekends, and holiday seasons, requiring the ability to juggle several tasks in a short amount of time.",
+          "requirements": [
+            "Smile, greet, and thank customers with a positive attitude",
+            "Stand for long periods of time while checking out customers quickly and accurately",
+            "Keep your area clean and presentable",
+            "Answer customer questions and help them with their needs",
+            "Be available to assist associates across the store as needed"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-5991-9004"
+        },
+        {
+          "id": "CP-472-9021",
+          "title": "Cart Attendant",
+          "category": "Stores and Clubs : Cashier, Front-End and Membership Services",
+          "location": "Broken Arrow, OK",
+          "jobType": "Full-time",
+          "payRange": "$14.00 - $27.00/hr",
+          "description": "Cart Attendants ensure customers have a great first and last impression of the store by gathering carts from the parking lot, operating equipment to move carts from the lot into the store, and maintaining the sanitation and cleanliness of the shopping carts. The role requires a positive attitude in all weather conditions, since the pace can be intense during evenings, weekends, and holiday seasons. It is a highly visible, customer-facing position at a WM Supercenter.",
+          "requirements": [
+            "Ensure customers have a great first and last impression",
+            "Gather carts from the parking lot",
+            "Operate equipment to move carts from the parking lot to inside the store",
+            "Clean restrooms, salesfloor, and parking lot as needed",
+            "Have a positive attitude in all weather conditions"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-472-9021"
+        },
+        {
+          "id": "CP-64-9020",
+          "title": "Checkout Team Associate",
+          "category": "Stores and Clubs : Cashier, Front-End and Membership Services",
+          "location": "Brownsville, TN",
+          "jobType": "Part-time",
+          "payRange": "$15.00 - $28.00/hr",
+          "description": "Front End Checkout associates run the registers at a WM Supercenter: they smile, greet and thank customers, ring up items, process payments, and keep a positive attitude. This role may require standing for long periods of time and juggling several tasks quickly, especially during evenings, weekends, and holiday seasons. Associates are expected to be ambassadors of Walmart and ready to help with customer questions and needs.",
+          "requirements": [
+            "Smile, greet, and thank customers with a positive attitude",
+            "Stand for long periods of time while checking out customers quickly and accurately",
+            "Scan items, explain pricing, bag items properly, and count cash back",
+            "Keep your area clean and presentable",
+            "Answer customer questions and help them with their needs"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-64-9020"
+        },
+        {
+          "id": "CP-3430-9049",
+          "title": "Stocking Team Supervisor",
+          "category": "Stores and Clubs : General Merchandise, Stocking and Unloading",
+          "location": "Oklahoma City, OK",
+          "jobType": "Full-time",
+          "payRange": "$19.00 - $32.00/hr",
+          "description": "Stocking associates are focused on unloading trucks and stocking new freight at a WM Supercenter, spending the majority of their time in the backroom. The role requires the ability to lift heavy objects in excess of 50 pounds, and the ability to operate heavy machinery such as forklifts may also be necessary. This fast-paced, physically demanding job ranges from unloading trucks in the summer to filling the ice cream freezer.",
+          "requirements": [
+            "Unload trucks",
+            "Sort products in the backroom",
+            "Stock products on shelves",
+            "Ensure aisles are neat and area is clean",
+            "Engage vendors and drivers with a positive attitude",
+            "Greet customers and answer their questions"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-3430-9049"
+        },
+        {
+          "id": "CP-409-9013",
+          "title": "Deli/Bakery Team Associate",
+          "category": "Stores and Clubs : Food and Grocery",
+          "location": "Haleyville, AL",
+          "jobType": "Part-time",
+          "payRange": "$16.00 - $29.00/hr",
+          "description": "The main priority of Deli/Bakery associates is to prepare quality products for customers at a WM Supercenter, engaging with customers at the service counter and moving incoming merchandise out to the salesfloor. Cleaning and maintaining proper food safety standards are critical to the team's success. Associates help customers celebrate special moments in the bakery and serve on the frontlines of customer service in the deli.",
+          "requirements": [
+            "Prepare quality deli and bakery products for customers",
+            "Engage with customers at the service counter",
+            "Move incoming merchandise out to the salesfloor",
+            "Maintain detailed cleaning of shelves and department, checking and maintaining temperature control",
+            "Verify dates and dispose of lesser-quality food products"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-409-9013"
+        },
+        {
+          "id": "R-2653792",
+          "title": "Clinical Services Pharmacy Technician - Sam's Club",
+          "category": "Healthcare : Pharmacy",
+          "location": "Houston, TX",
+          "jobType": "Full-time",
+          "payRange": "$23.00 - $31.00/hr",
+          "description": "This role provides member service by identifying member needs, assisting with purchasing decisions, and promoting Sam's Club total healthcare solutions. It involves assisting with processing prescription and OTC orders, stocking and securing pharmacy supplies, entering prescription information, and completing required documentation. The associate also provides expanded comprehensive patient care by administering clinical service programs such as immunizations and point-of-care testing, in compliance with State Board of Pharmacy statutes and regulations.",
+          "requirements": [
+            "Assist with processing prescription and OTC orders and purchases",
+            "Stock and secure pharmacy supplies and merchandise",
+            "Enter prescription information and maintain required documentation",
+            "Administer clinical service programs (e.g., immunizations, point-of-care testing) per state pharmacy board regulations",
+            "Collaborate with healthcare professionals to ensure accurate and timely dispensation of medications",
+            "Monitor stock levels and assist in inventory management"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2653792"
+        },
+        {
+          "id": "R-2613407",
+          "title": "Truck Driver OTR - Regional - Reno/Sparks, NV (Western US Regional Overnight)",
+          "category": "Supply Chain and Transportation : Drivers",
+          "location": "Sparks, NV",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "Regional truck drivers plan their day, set priorities, and work with their team to keep freight moving safely and on time, running optimized routes while following traffic laws and local restrictions. Drivers handle all required paperwork and electronic logs accurately and follow DOT, state, and company guidelines, and safely operate and inspect their tractor-trailer before, during, and after each trip. Walmart advertises that regional drivers on this route can earn up to $110,000 in their first year, with weekly home time and consecutive days off every week.",
+          "requirements": [
+            "Interstate (Class A) Commercial Driver's License with Hazmat endorsement (or will obtain within 120 days of hire)",
+            "Minimum of 30 months (2.5 years) experience in a full-time Class A tractor/trailer driving position in the previous 3 years",
+            "No more than two moving violations in the last three years operating a personal or commercial motor vehicle",
+            "No preventable accidents in the last three years, and no preventable DOT recordable accidents in the last ten years",
+            "No preventable accident resulting in a fatality or catastrophic injury in driving history",
+            "Must currently live within 250 miles of the assigned facility or be willing to relocate within 90 days of hire"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2613407"
+        },
+        {
+          "id": "CP-4093-11011",
+          "title": "Maintenance Technician",
+          "category": "Supply Chain and Transportation : Maintenance",
+          "location": "Chino, CA",
+          "jobType": "Full-time",
+          "payRange": "$33.65 - $37.15/hr",
+          "description": "As a member of the Maintenance team at an eCommerce Warehouse Logistics distribution center, this associate is responsible for repairs and preventative maintenance on distribution center equipment and the building, utilizing a Computerized Maintenance Management System (CMMS) to record work history, identify parts usage, and track warranties. Career opportunities in this family include Battery Changer, Custodial, Licensed Electrician, Maintenance Technician, Multi-Skilled Technician, and Maintenance Planner roles. Attention to detail and focus on safety are critical to the role.",
+          "requirements": [
+            "Maintain, repair, and conduct preventative maintenance on material handling and building equipment safely and efficiently",
+            "Read and understand technical drawings (blueprints, electronic/mechanical schematics) to repair and maintain equipment",
+            "Troubleshoot complex equipment problems where the repair is not immediately visible or obvious",
+            "Utilize a Computerized Maintenance Management System (CMMS) to record workorders, asset/labor history, and inventory usage",
+            "Coursework or certification in electronic technology plus 2 years of industrial maintenance experience (or 3 years of equivalent experience) troubleshooting and repairing automated equipment",
+            "Operate material handling equipment, battery equipment, moving machinery, and other powered equipment"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/CP-4093-11011"
+        },
+        {
+          "id": "R-2418157",
+          "title": "General Production Associate, Manufacturing",
+          "category": "Supply Chain and Transportation : Supply Chain and Transportation Operations",
+          "location": "Olathe, KS",
+          "jobType": "Full-time",
+          "payRange": "$20.80 - $26.00/hr",
+          "description": "At this Walmart meat processing plant, the General Production Associate operates and monitors production equipment by following standard operating procedures and Good Manufacturing Practices (GMP). The role includes documenting and recording production and quality information, operating and troubleshooting manufacturing equipment and systems using automated and manual controls, and supporting continuous improvement initiatives to improve quality and throughput. Safety procedures, including use of personal protective equipment, are central to the position.",
+          "requirements": [
+            "Operate and monitor production equipment following standard operating procedures and Good Manufacturing Practices (GMP)",
+            "Document and record production and quality information accurately",
+            "Operate and troubleshoot manufacturing equipment and systems using automated and manual controls",
+            "Adhere to all safety procedures and guidelines, including use of personal protective equipment",
+            "Report hazards, near misses, injuries, or accidents and participate in safety trainings and drills",
+            "Maintain cleanliness in work areas to prevent accidents and support continuous improvement of safety protocols"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2418157"
+        },
+        {
+          "id": "R-2596786",
+          "title": "Manager, Tax",
+          "category": "Corporate : Finance and Accounting",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$80,000 - $155,000/yr",
+          "description": "Walmart is seeking an experienced Tax Accounting Manager to join its Tax Accounting Global (TAG) Team, supporting the global consolidation of Walmart's income tax provision, SEC reporting, tax accounting controls, and forecasting processes under U.S. GAAP and IFRS. The role focuses on leveraging technology, automation, and process improvement in tax accounting, including use of ONESOURCE Tax Provision, to reduce manual work and improve data quality. This position partners across Tax, Finance, Controllership, Technology, and international markets.",
+          "requirements": [
+            "4-8 years of income tax experience, with a strong preference for income tax accounting experience",
+            "Strong knowledge of ASC 740 and U.S. GAAP income tax accounting; IFRS tax accounting experience is a plus",
+            "Experience preparing, reviewing, or supporting quarterly and annual income tax provisions and related financial statement disclosures",
+            "Strong analytical and problem-solving skills working with complex financial and tax data",
+            "Experience leveraging technology, automation, and data analytics to improve tax accounting processes and controls"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2596786"
+        },
+        {
+          "id": "R-2628355",
+          "title": "Recruiter",
+          "category": "Corporate : Human Resources",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$70,000 - $130,000/yr",
+          "description": "As a Recruiter on Walmart's Talent Acquisition team, this role partners closely with hiring managers to execute full-cycle recruitment strategies across portfolios such as Asset Protection, Data Science, Realty, and Energy. The recruiter manages multiple requisitions, leverages data and market insights to develop proactive sourcing approaches, and ensures a positive candidate experience through clear communication and process management using ATS and CRM tools. The role demands strong stakeholder engagement and decision-making to support timely, compliant, and effective hiring outcomes.",
+          "requirements": [
+            "Proven experience managing full-cycle recruitment processes and multiple requisitions simultaneously",
+            "Strong organizational skills with the ability to prioritize and execute hiring plans effectively",
+            "Expertise in stakeholder management and building credibility with hiring managers",
+            "Ability to analyze data and market trends to develop proactive sourcing strategies",
+            "Proficiency using ATS and CRM tools for pipeline management and reporting",
+            "Effective decision-making and communication skills to guide hiring processes and candidate interactions"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2628355"
+        },
+        {
+          "id": "R-2565083",
+          "title": "Software Engineer III",
+          "category": "Technology : Software Engineering and Architecture",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$90,000 - $180,000/yr",
+          "description": "As a Software Engineer III at Walmart Global Tech, this role designs, builds, and scales high-impact systems across backend services, automation frameworks, and GenAI-powered engineering tools for Walmart's global eCommerce and Store ecosystems. Work spans GenAI agent/workflow development, backend API design at scale, and quality engineering automation across backend, web, and native mobile platforms. This is a full-time, onsite role in Bentonville, AR, and immigration sponsorship is not available.",
+          "requirements": [
+            "5+ years of experience in backend engineering, automation, or quality engineering",
+            "Strong experience with Node.js, JavaScript, Python, or similar languages",
+            "Hands-on experience with REST APIs, distributed systems, and backend automation",
+            "Experience with mobile/web automation frameworks (Appium, TestCafe, XCUI Test, Espresso)",
+            "Experience with CI/CD pipelines and Git",
+            "Bachelor's or master's degree in computer science or related field"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2565083"
+        },
+        {
+          "id": "R-2284475",
+          "title": "Senior, Software Engineer (Front End)",
+          "category": "Technology : Software Engineering and Architecture",
+          "location": "Sunnyvale, CA",
+          "jobType": "Full-time",
+          "payRange": "$117,000 - $234,000/yr",
+          "description": "This Senior Frontend Engineer role on Walmart's International Technology team requires exceptional coding skills and the ability to guide and mentor a team of engineers, spending 75-80% of time hands-on coding across both frontend and backend systems. The team works closely with US stores and eCommerce to serve customers through technological innovation across search, personalization, and merchant tools. The role spans UI development with HTML/CSS/JavaScript/ReactJS, site speed optimization, Node.js backend services, and architectural decision-making.",
+          "requirements": [
+            "Proficiency in HTML, CSS, JavaScript, ReactJS, and Webpack to build responsive, dynamic user interfaces",
+            "Strong hold on Node.js for server-side JavaScript and scalable backend services",
+            "Experience designing and developing RESTful APIs, with both SQL and NoSQL databases",
+            "Focus on site speed optimization, browser storage, and memory management for web applications",
+            "Experience mentoring junior engineers and driving architectural decisions"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2284475"
+        },
+        {
+          "id": "R-2504580",
+          "title": "Data Analyst II",
+          "category": "Technology : Data Science and Analytics",
+          "location": "New York, NY",
+          "jobType": "Full-time",
+          "payRange": "$84,000 - $156,000/yr",
+          "description": "As a Data Analyst II on VIZIO's Inscape data team (a Walmart company), this role leverages advanced analytical techniques to support data-driven decision-making for Inscape's TV data clients — publishers, agencies, and brands. The position involves identifying relevant data sources, ensuring data quality, applying statistical methods, and developing visualizations and reports to communicate findings to stakeholders. It also supports process improvements and project delivery within a complex organizational environment.",
+          "requirements": [
+            "Proficiency in big data analytics and statistical techniques to support business decision-making",
+            "Experience with data visualization tools such as Python libraries, Tableau, or Power BI",
+            "Strong knowledge of database technologies including SQL and NoSQL",
+            "Ability to analyze data quality, perform data cleansing, and support data governance practices",
+            "Effective communication skills to present insights and influence stakeholders across business domains"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2504580"
+        },
+        {
+          "id": "R-2650736",
+          "title": "Associate Merchant - Appliances",
+          "category": "Corporate : Corporate Merchandising",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$70,000 - $130,000/yr",
+          "description": "The Associate Merchant - Appliances supports category management for Walmart's Large Appliance business through supplier negotiations, purchase order administration, and item setup across stores and online channels. This position collaborates cross-functionally to enhance the customer experience by ensuring accurate product content and executing communication programs, while using data analysis to support budgeting, forecasting, and promotional activities. The role contributes to category strategy implementation and operational excellence while maintaining vendor relationships.",
+          "requirements": [
+            "Proven experience in vendor relationship management and supplier negotiations",
+            "Ability to manage purchase orders and resolve supplier issues efficiently",
+            "Proficiency in data analysis to derive insights supporting forecasting and budgeting",
+            "Experience collaborating cross-functionally to implement customer-focused processes and product solutions",
+            "Aptitude for leveraging digital tools to enhance item setup, pricing, and promotional strategies"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2650736"
+        },
+        {
+          "id": "R-2655888",
+          "title": "Manager, Campaign Management",
+          "category": "Corporate : Sales and Marketing",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$80,000 - $155,000/yr",
+          "description": "The Manager, Campaign Management leads planning, coordination, and execution of advertising campaigns across multiple platforms for Sam's Club to drive business growth and customer engagement, as part of the Media Activation team. This role requires strong analytical and financial acumen to evaluate campaign performance, optimize strategies, and manage budgets, collaborating with cross-functional teams to align marketing initiatives with business objectives. The position also involves overseeing campaign platforms and communicating results to senior leadership.",
+          "requirements": [
+            "Proven expertise in campaign management, including programmatic and online advertising platforms",
+            "Strong business and financial acumen with experience in budget management and performance analysis",
+            "Proficiency in data analysis and translating insights into actionable marketing strategies",
+            "Skilled in stakeholder management and communication across varied teams and leadership levels",
+            "Experience with integrated marketing communications, media planning, and bid management tools",
+            "Demonstrated project management capabilities ensuring timely delivery and risk mitigation"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2655888"
+        },
+        {
+          "id": "R-2538134",
+          "title": "Senior Platform Product Manager",
+          "category": "Technology : Product Management",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$90,000 - $180,000/yr",
+          "description": "The Senior Platform Product Manager leads development and execution of product strategies for Walmart's catalog management transformation, aligning business goals with customer needs. This role manages product roadmaps, drives data-informed decisions, and collaborates with cross-functional teams to optimize processes supporting omni-channel sales, inventory, and delivery. The position requires agile methodology expertise and a focus on continuous improvement to enhance platform performance and customer satisfaction.",
+          "requirements": [
+            "Proven experience in product strategy development and execution, including roadmap creation and prioritization",
+            "Strong stakeholder management skills with the ability to build alignment across cross-functional teams",
+            "Expertise in data-driven decision making, using analytics to guide product enhancements",
+            "Proficiency in Agile methodologies and product development lifecycles, including MVP creation",
+            "Knowledge of customer journey mapping, process optimization, and delivering customer-centric solutions"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2538134"
+        },
+        {
+          "id": "R-2617251",
+          "title": "Senior UX Designer",
+          "category": "Corporate : Creative, Design and UX",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$90,000 - $180,000/yr",
+          "description": "This Senior UX Designer role sits on Walmart's Omni Services Design team, which enhances customer and associate interactions across physical and digital channels spanning pharmacy, optical, auto care, and home services. The role leads development of user experience strategies through research, interaction design, and prototyping, collaborating with stakeholders to align business goals with user needs and using data analysis and usability testing to drive design decisions. The position contributes to scalable, user-centered design systems across Walmart.com, the Walmart app, and in-store touchpoints.",
+          "requirements": [
+            "Experience conducting user research including interviews, surveys, and contextual inquiries",
+            "Ability to develop and refine interaction designs and user journeys based on data analysis",
+            "Strong visual and interaction design craft grounded in service design principles",
+            "Experience creating prototypes and detailed design specifications adhering to platform guidelines",
+            "Experience leading usability testing, documenting findings, and iterating designs",
+            "Experience using AI and agentic tools to explore, prototype, and build new experiences"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2617251"
+        },
+        {
+          "id": "R-2639958",
+          "title": "Senior Manager, Program Management - Digital Enablement - CA",
+          "category": "Corporate : Project and Program Management",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$80,000 - $155,000/yr",
+          "description": "This Senior Manager role serves as a strategic leader responsible for the digital transformation and optimization of physical assets across Walmart Canada's retail portfolio, bridging capital project management, operational technology, and systems engineering. The role oversees enterprise asset strategy for refrigeration, HVAC, and lighting controls across Canadian retail facilities, defining the roadmap for integrating hardware-agnostic, connected building automation systems. It partners with Global Tech, Construction, Facilities Maintenance, Energy, and Procurement teams.",
+          "requirements": [
+            "Experience leading strategic development and execution of building asset digitization and capital planning",
+            "Knowledge of Building Automation System (BAS) design standards and communication protocols (BACnet, Modbus, etc.)",
+            "Experience transitioning legacy hardware to software-defined platforms for telemetry and predictive maintenance",
+            "Strong cross-functional collaboration skills across engineering, construction, and procurement teams",
+            "Understanding of IT/OT security governance for building automation and operational technology environments"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2639958"
+        },
+        {
+          "id": "R-2640308",
+          "title": "Director, Automation Engineering - Fulfillment Automation Design",
+          "category": "Supply Chain and Transportation : Engineering",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$130,000 - $260,000/yr",
+          "description": "The Director, Automation Engineering leads strategic development and implementation of automation technologies to enhance supply chain efficiency on the Fulfillment Automation Design team, which defines how Walmart's next-generation fulfillment centers should work. The role combines automation engineering, industrial engineering, analytics, and operations expertise to develop facility concepts, automation architectures, material flow strategies, and capacity models using simulation and data. This position guides cross-functional design efforts with Operations, Network Design, Real Estate, Construction, Product, and Finance teams.",
+          "requirements": [
+            "Extensive experience in automation engineering, systems design, and integration within complex supply chain environments",
+            "Proven ability to leverage data analysis and advanced analytics to influence strategic technology and investment decisions",
+            "Strong project management skills, including risk identification and contingency planning",
+            "Demonstrated business acumen with expertise in developing strategic roadmaps aligned to financial analysis",
+            "Experience mentoring teams and fostering continuous improvement through operational excellence"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2640308"
+        },
+        {
+          "id": "R-2652887",
+          "title": "Systems and Infrastructure Engineer II, Information Security",
+          "category": "Technology : Information Security",
+          "location": "Herndon, VA",
+          "jobType": "Full-time",
+          "payRange": "$96,000 - $186,000/yr",
+          "description": "This role on Walmart's Workforce Identity Lifecycle Management (WILM) team designs, implements, and maintains secure infrastructure solutions aligned with business requirements and compliance standards, managing the complete lifecycle of workforce identities. Responsibilities include automating identity provisioning and deprovisioning processes integrated with HR systems, Active Directory, and cloud environments, and supporting capacity planning and issue resolution. The position supports continuous improvement in infrastructure performance while adhering to security frameworks and coding best practices.",
+          "requirements": [
+            "Expertise in infrastructure design, including software architecture, distributed systems, and scalability principles",
+            "Strong knowledge of security controls, frameworks, and compliance requirements relevant to information security",
+            "Experience with automation tools and scripting languages such as Python",
+            "Familiarity with configuration and release management processes in cloud and virtualized environments",
+            "Ability to analyze business and technical requirements to support solution design and capacity planning"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2652887"
+        },
+        {
+          "id": "R-2630227",
+          "title": "2027 FT Senior Analyst, Finance - Accounting and Finance Development Program (AFDP)",
+          "category": "Corporate : Finance and Accounting",
+          "location": "Bentonville, AR",
+          "jobType": "Full-time",
+          "payRange": "$70,000 - $130,000/yr",
+          "description": "Walmart's Accounting & Finance Development Program is a highly competitive, 2-year rotational program that places participants' careers on a fast track through four six-month rotations across Walmart US, Sam's Club, International, and Corporate segments. The program offers two tracks — Finance & Strategy (covering Commercial Finance areas like Strategy, Merchandising, Supply Chain, Marketing, and FP&A) and Accounting (covering Controllership and Audit sub-teams) — with structured coaching, mentorship, and executive exposure. After completing the program, participants pursue roles aligned with their interests across the organization.",
+          "requirements": [
+            "Top candidates selected via competitive invitation into the rotational development program",
+            "Willingness to complete four six-month rotations across different accounting and finance teams/segments",
+            "Exposure to financial planning, data analysis, financial modeling, and strategic decision support",
+            "Ability to participate in a structured curriculum including a capstone experiential learning component",
+            "Strong foundation for either a Finance & Strategy track or an Accounting (Controllership/Audit) track"
+          ],
+          "sourceUrl": "https://careers.walmart.com/us/en/jobs/R-2630227"
+        }
+      ]
     },
     {
-      "id": "R0000475782",
-      "title": "Director - Real Estate Counsel",
-      "category": "Legal Affairs, Risk & Compliance",
-      "location": "Minneapolis, MN",
-      "jobType": "Full-time",
-      "payRange": "$168,000 - $303,000 USD annually",
-      "description": "The Real Estate Law team provides transactional support, legal advice and strategic direction on matters supporting Target's real estate strategy. As Director – Real Estate Counsel, you'll negotiate and draft real estate transactions (ground/building leases, purchase and sale agreements, easement and development agreements) supporting Target's store portfolio and growth, representing Target externally with developers, landlords and governmental authorities, and partnering with the paralegal team on title review and closings.",
-      "requirements": [
-        "J.D. and active law license; substantial real estate transactional experience",
-        "Experience negotiating and drafting commercial real estate agreements",
-        "Ability to represent the company externally with developers, landlords, co-tenants and government authorities",
-        "Strong collaboration skills working with internal business partners and paralegal teams"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w57/82/director-counsel-real-estate"
+      "id": "openai",
+      "name": "OpenAI",
+      "tagline": "Frontier AI lab — research, engineering, policy & ops",
+      "accentColor": "#10a37f",
+      "snapshotDate": "2026-10-02",
+      "sourceNote": "Real, live postings scraped from openai.com/careers (or wherever they actually live) on the snapshot date above — a frozen sample for demo purposes.",
+      "jobs": [
+        {
+          "id": "research-engineer-research-scientist-rl-reasoning-san-francisco",
+          "title": "Research Engineer/Research Scientist, RL/Reasoning",
+          "category": "Reasoning",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$295K – $445K + Offers Equity",
+          "description": "The RL and Reasoning team drives OpenAI's core reasoning paradigm and created innovations such as o1 and o3, pushing the boundaries of reinforcement learning research and deploying next-generation generative models at scale. As a Research Engineer/Research Scientist, you will advance the frontier of AI alignment and capabilities through cutting-edge RL methods, sitting at the heart of training intelligent, aligned, and general-purpose agents. The role is based in San Francisco with a hybrid schedule of 3 days per week in office.",
+          "requirements": [
+            "Background in reinforcement learning research with the ability to iterate quickly",
+            "Proficient at coding and comfortable diving into a large ML codebase to debug and improve it",
+            "Deep understanding of machine learning and machine learning applications",
+            "Self-starter who takes initiative and ownership of ideas, driving them to completion",
+            "Values principled approaches and simple, tightly-controlled experiments that reach trustworthy conclusions",
+            "Thrives in a fast-paced, dynamic, and technically complex environment"
+          ],
+          "sourceUrl": "https://openai.com/careers/research-engineerresearch-scientist-rlreasoning-san-francisco/"
+        },
+        {
+          "id": "researcher-alignment-san-francisco",
+          "title": "Researcher, Alignment",
+          "category": "Alignment",
+          "location": "San Francisco, CA (may also be based in London)",
+          "jobType": "Full-time",
+          "payRange": "$295K – $500K + Offers Equity",
+          "description": "The Alignment team ensures OpenAI's AI systems are safe, trustworthy, and consistently aligned with human values as they scale in complexity and capability. As a Research Engineer/Research Scientist, you will design and implement scalable solutions and experiments — from an ambiguous model-behavior question to a concrete hypothesis, evaluation, and analyzed result — to ensure alignment techniques improve rather than break as capabilities grow. Responsibilities include designing evaluations of model robustness and scalable oversight methods for human-AI interaction.",
+          "requirements": [
+            "PhD or equivalent experience in computer science, computational science, data science, cognitive science, or a similar field",
+            "Strong engineering skills, particularly in designing and optimizing large-scale ML systems (e.g., PyTorch)",
+            "Deep understanding of the science behind alignment algorithms and techniques",
+            "Ability to develop data visualization or data collection interfaces (e.g., TypeScript, Python)",
+            "Team player willing to do a variety of tasks that move the team forward",
+            "Enjoys fast-paced, collaborative, cutting-edge research environments"
+          ],
+          "sourceUrl": "https://openai.com/careers/researcher-alignment-san-francisco/"
+        },
+        {
+          "id": "software-engineer-api-enterprise-controls-san-francisco",
+          "title": "Software Engineer, API Enterprise Controls",
+          "category": "Core Product & Platform | API",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$266K – $445K + Offers Equity",
+          "description": "API Enterprise Controls owns the platform capabilities that help developers, startups, and enterprises adopt the OpenAI API securely, spanning authentication and identity, service accounts and key management, secure networking, compliance, and operational controls. This product-engineering role is grounded in deep backend systems, requiring you to lead cross-functional initiatives and carry ambiguous needs from discovery through design, launch, and iteration. You'll design developer-facing APIs and build highly reliable backend systems spanning databases, streaming infrastructure, and distributed services.",
+          "requirements": [
+            "9+ years of professional engineering experience in backend, platform, or product-driven engineering roles",
+            "Exceptional backend engineering depth paired with strong product judgment",
+            "Proficiency in a backend language such as Python, Go, Rust, or TypeScript",
+            "Experience with distributed systems, databases, streaming systems, authentication/identity, or enterprise platform controls",
+            "Track record of leading large cross-functional initiatives and influencing product direction",
+            "Strong communication and developer empathy"
+          ],
+          "sourceUrl": "https://openai.com/careers/software-engineer-api-enterprise-controls-san-francisco/"
+        },
+        {
+          "id": "machine-learning-engineer-api-multicloud-san-francisco",
+          "title": "Machine Learning Engineer, API Multicloud",
+          "category": "Core Product & Platform | API",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$223K – $423K + Offers Equity",
+          "description": "OpenAI's API Multicloud team extends OpenAI's API platform into strategic cloud environments, starting with AWS, enabling key API technologies — including AWS-hosted Codex and model customization/post-training as a service — in partnership with Amazon. As a Machine Learning Engineer, you'll build and improve the systems that help strategic partners adapt OpenAI models to important use cases, spanning post-training workflows, evaluation, data pipelines, and API/infrastructure integration. You'll work at the boundary between partner needs and core ML systems, diagnosing training and evaluation issues and feeding learnings back into the platform.",
+          "requirements": [
+            "Master's or PhD in Computer Science, Machine Learning, or related field, or equivalent practical experience",
+            "3+ years of professional engineering experience in ML, infrastructure, or product-driven engineering",
+            "Hands-on experience training and fine-tuning large language models (SFT, distillation, preference optimization, RL, or other post-training techniques)",
+            "Strong software engineering fundamentals in Python, Rust, or similar languages",
+            "Experience with model customization, evaluation systems, data pipelines, or cloud infrastructure",
+            "Comfort moving quickly through ambiguity and owning problems end-to-end"
+          ],
+          "sourceUrl": "https://openai.com/careers/machine-learning-engineer-api-multicloud-san-francisco/"
+        },
+        {
+          "id": "product-manager-core-models-san-francisco",
+          "title": "Product Manager, Core Models",
+          "category": "Product Management",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$347K – $490K + Offers Equity",
+          "description": "The Core Models team shapes how OpenAI's frontier models are built, measured, and launched, working across Research, Engineering, Model Design, and Data Science to turn model capability advances into reliable, useful experiences. As Product Manager, you'll connect user needs to model and systems decisions — from query understanding to how capabilities move from research prototypes into the mainline model and launch stack. You'll build closed learning loops that turn product usage and feedback into datasets, evaluations, training priorities, and launch decisions.",
+          "requirements": [
+            "Deep expertise in product management, including ownership of technically complex products or platforms",
+            "Fluency in search/information retrieval, recommendation systems, ML platforms, large-scale data systems, or model evaluation",
+            "Ability to pair offline evaluation with online experimentation and user signals",
+            "Earns the trust of researchers and engineers through technical depth and crisp judgment",
+            "Combines consumer product taste with systems rigor",
+            "Moves quickly in ambiguous environments and communicates directly"
+          ],
+          "sourceUrl": "https://openai.com/careers/product-manager-core-models-san-francisco/"
+        },
+        {
+          "id": "senior-product-policy-lead-regulation-san-francisco",
+          "title": "Senior Product Policy Lead, Regulation",
+          "category": "Product Policy",
+          "location": "San Francisco, CA or US Remote",
+          "jobType": "Full-time",
+          "payRange": "$302K – $335K + Offers Equity",
+          "description": "The Product Policy team develops and implements policies that shape how OpenAI's technology is built and used, turning complex questions about AI's benefits and risks into practical guidance. As Senior Product Policy Lead, Regulation, you will map external regulatory and legislative trends across frontier AI, youth, wellbeing, high-stakes domains, and deceptive use, synthesizing them into concrete research, product, and policy requirements. You'll work closely with Legal and Global Affairs to help Product, Engineering, Research, and Safety teams understand what external developments mean for their work.",
+          "requirements": [
+            "Substantial experience in AI or technology regulation, public policy, or product policy",
+            "Deep understanding of AI, including model capabilities, limitations, training/deployment, evaluations, and safety mitigations",
+            "Strong record of product advising and close partnership with product managers, engineers, and researchers",
+            "Sound judgment under uncertainty and ability to prioritize across a broad portfolio",
+            "Clear, precise communication with technical teams, legal/policy experts, and executives",
+            "Breadth across AI policy issues with the ability to build depth quickly with subject-matter experts"
+          ],
+          "sourceUrl": "https://openai.com/careers/senior-product-policy-lead-regulation-san-francisco/"
+        },
+        {
+          "id": "account-director-commercial-new-york-city",
+          "title": "Account Director, Commercial",
+          "category": "Sales",
+          "location": "New York City",
+          "jobType": "Full-time",
+          "payRange": "$198K – $220K + Offers Equity",
+          "description": "The Commercial Sales team helps growing businesses adopt OpenAI's products and translate emerging AI capabilities into meaningful business outcomes, partnering with customers across industries to evaluate, deploy, and expand their use of ChatGPT and the OpenAI API. As Account Director, you'll own customer relationships and the commercial process across the SMB segment from initial discovery through close and expansion, combining consultative selling, technical curiosity, and disciplined execution. The role is based in New York with a hybrid schedule and occasional travel.",
+          "requirements": [
+            "5+ years of relevant software sales experience, including 3+ years of closing experience",
+            "Demonstrated track record of meeting or exceeding revenue targets",
+            "Strong discovery, qualification, pipeline-generation, and account-planning skills",
+            "Ability to communicate the value of complex technical products to business and technical audiences",
+            "Comfortable navigating conversations with C-suite stakeholders",
+            "High ownership and sound judgment in fast-moving, ambiguous environments"
+          ],
+          "sourceUrl": "https://openai.com/careers/account-director-commercial-new-york-city/"
+        },
+        {
+          "id": "recruiter-ai-ml-research-san-francisco",
+          "title": "Recruiter, AI/ML Research",
+          "category": "Recruiting",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$216K – $240K + Offers Equity",
+          "description": "OpenAI's Research Recruiting team is embedded within the research organization, working side by side with research staff to identify, engage, and recruit the world's leading and emerging AI researchers, research engineers, and technical scientists. This is not a traditional execution-focused recruiting role — you'll operate as a strategic partner, helping define hiring priorities, shape search strategy, and guide hiring decisions that directly impact OpenAI's frontier-model research. The role is based in the San Francisco office.",
+          "requirements": [
+            "Significant experience recruiting within highly technical or specialized environments (ML/AI, distributed systems, infrastructure, or quantitative research)",
+            "Deep interest in AI research and desire to engage directly with global research communities",
+            "Track record of leading complex, ambiguous technical searches from early talent mapping through close",
+            "Experience navigating high-stakes negotiations with senior technical or research candidates",
+            "Comfort operating in fast-moving environments where hiring priorities evolve over time"
+          ],
+          "sourceUrl": "https://openai.com/careers/recruiter-aiml-research-san-francisco/"
+        },
+        {
+          "id": "senior-counsel-ai-product-enterprise-api-san-francisco",
+          "title": "Senior Counsel, AI Product (Enterprise/API)",
+          "category": "Legal",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$330K – $366K + Offers Equity",
+          "description": "OpenAI's Legal team tackles innovative, fundamental legal issues in AI across technology, privacy, IP, corporate, employment, tax, regulatory, and litigation. As a member of the AI Product Counsel team, you will advise the teams building and deploying OpenAI's business products — including ChatGPT Business, ChatGPT Enterprise, and the API platform — partnering with Product, Engineering, Safety, Security, and Privacy on enterprise product development, model launches, and responsible deployment. You'll help shape how frontier AI products are built and delivered to businesses.",
+          "requirements": [
+            "8+ years of experience in a mix of in-house or technology-focused law firm roles",
+            "JD and license or qualification to practice law in California",
+            "Understanding of the letter of the law with a practical, principled approach to problems",
+            "Ability to build cross-functional relationships balancing risk-taking with responsible development",
+            "Strong sense of ownership and sound judgment in ambiguous situations"
+          ],
+          "sourceUrl": "https://openai.com/careers/senior-counsel-ai-product-(enterpriseapi)-san-francisco/"
+        },
+        {
+          "id": "strategy-operations-lead-korea-seoul",
+          "title": "Strategy & Operations Lead — Korea",
+          "category": "Business Operations",
+          "location": "Seoul, South Korea",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "OpenAI's APAC team brings the company's mission, products, and partnerships to life across one of its most strategically important regions. As Strategy & Operations Lead for Korea, reporting to the General Manager, Korea, you will translate global strategy into regional execution, ensure operating discipline across markets and functions, and act as a bridge between global leadership and regional teams. You'll build scalable operating systems, establish KPIs and reporting frameworks, and build and mentor a high-performing regional operations team.",
+          "requirements": [
+            "Significant experience leading regional or international operations in a fast-scaling, complex business environment",
+            "Strong strategic and operational judgment, translating high-level goals into clear execution plans",
+            "Experience operating across multiple markets, functions, and business lines, ideally within Korea",
+            "Track record of building scalable operating systems, processes, metrics, and reporting frameworks",
+            "Strong cross-functional leadership skills and ability to influence senior stakeholders",
+            "High integrity, low ego, and a collaborative leadership style"
+          ],
+          "sourceUrl": "https://openai.com/careers/strategy-and-operations-lead-korea-seoul-south-korea/"
+        },
+        {
+          "id": "data-scientist-safety-san-francisco",
+          "title": "Data Scientist, Safety",
+          "category": "Data Science",
+          "location": "San Francisco, CA or New York City",
+          "jobType": "Full-time",
+          "payRange": "$265K – $380K + Offers Equity",
+          "description": "OpenAI's Safety teams work to ensure products are safe, trusted, and resilient as frontier AI systems scale globally, tackling misuse and misalignment, fraud and abuse, and protection of vulnerable users. As a Data Scientist, Safety, you'll help build the analytical foundations that allow OpenAI to deploy increasingly capable AI responsibly — measuring harmful behavior, detecting fraud and coordinated misuse, evaluating safety classifiers and mitigation systems, and designing experiments and causal analyses. You may work across Safety Systems, Integrity, or Product Policy teams.",
+          "requirements": [
+            "Strong statistical reasoning and analytical judgment",
+            "Experience with experimentation, causal inference, or observational analysis",
+            "Strong SQL and Python skills",
+            "Experience working with messy, incomplete, or noisy datasets",
+            "Ability to structure open-ended business or risk problems",
+            "High ownership and comfort operating independently"
+          ],
+          "sourceUrl": "https://openai.com/careers/data-scientist-safety-san-francisco/"
+        },
+        {
+          "id": "security-engineer-infrastructure-security-us-remote",
+          "title": "Security Engineer, Infrastructure Security",
+          "category": "Security",
+          "location": "US Remote, New York City, Seattle, or San Francisco",
+          "jobType": "Full-time",
+          "payRange": "$266K – $445K + Offers Equity",
+          "description": "OpenAI's Infrastructure Security (InfraSec) team protects the foundations of OpenAI's research and production environments, spanning GPU supercomputing clusters, multi-cloud infrastructure, datacenters, networking, storage, and the services powering frontier AI models. As a Security Engineer, you'll design and build security controls across layers — from physical hardware and firmware to Kubernetes and CI/CD — defending against sophisticated adversaries and insider threats, and tackle projects like checkpoint encryption, network isolation, secret management, and machine identity.",
+          "requirements": [
+            "Deep understanding of security principles, best practices, and common vulnerabilities",
+            "Expertise in cloud platform security (AWS, Azure), especially multi-cloud networks and cloud-agnostic system design",
+            "Experience securing on-prem deployments and datacenters from construction to multi-tenant use",
+            "Familiarity with container security, orchestration security, and authentication/authorization",
+            "Proactive mindset, addressing security gaps through automation and tooling",
+            "Strong analytical and communication skills across technical and non-technical stakeholders"
+          ],
+          "sourceUrl": "https://openai.com/careers/security-engineer-infrastructure-security-us-remote/"
+        },
+        {
+          "id": "product-marketing-manager-cybersecurity-san-francisco",
+          "title": "Product Marketing Manager, Cybersecurity",
+          "category": "Marketing",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$221K – $245K + Offers Equity",
+          "description": "The Industry Marketing team helps OpenAI bring frontier AI to industries where it creates measurable impact. As Product Marketing Manager, Cybersecurity, you will help define how OpenAI brings frontier AI to cyber defenders through Daybreak, OpenAI's cybersecurity initiative, shaping market narrative, building field-facing assets, and coordinating cross-functional execution across launches, customer proof, and account-based campaigns for offerings like Trusted Access for Cyber and Codex Security.",
+          "requirements": [
+            "7+ years of experience in product marketing, industry marketing, cybersecurity marketing, or enterprise GTM",
+            "Experience marketing technical enterprise products to security, developer, IT, risk, or C-suite audiences",
+            "Ability to translate complex model, product, and security concepts into clear positioning and field assets",
+            "Strong cross-functional program leadership across Product, GTM, Communications, Policy, and Security",
+            "Experience building GTM programs or playbooks in ambiguous, high-velocity environments",
+            "Familiarity with CISOs, security practitioners, and enterprise governance/procurement"
+          ],
+          "sourceUrl": "https://openai.com/careers/product-marketing-manager-cybersecurity-san-francisco/"
+        },
+        {
+          "id": "hr-business-partner-emea-paris",
+          "title": "HR Business Partner, EMEA",
+          "category": "HRBP",
+          "location": "Paris, France",
+          "jobType": "Full-time",
+          "payRange": null,
+          "description": "OpenAI's People team supports a diverse group of scientists, engineers, and business professionals across employee relations, immigration, compensation, and learning and development. As HR Business Partner, EMEA, you will support growing teams across EMEA with a particular focus on France, building scalable, locally compliant people practices, leading CSE-related employee-representative processes, and serving as a trusted HR partner to managers on performance, organizational health, and employee relations.",
+          "requirements": [
+            "Approximately 8+ years of HR experience partnering directly with managers in fast-paced, high-growth, or complex international environments",
+            "Practical experience with French employment practices and employee representative bodies (CSE, works council, or comparable)",
+            "Familiarity with employee elections, consultation processes, and related governance and documentation",
+            "Strong project management, translating complex multi-stage processes into clear milestones and owners",
+            "Professional fluency in French and English strongly preferred",
+            "Good judgment under pressure, balancing empathy, employee experience, and risk management"
+          ],
+          "sourceUrl": "https://openai.com/careers/hr-business-partner-emea-paris-france/"
+        },
+        {
+          "id": "hardware-engineer-test-san-francisco",
+          "title": "Hardware Engineer, Test",
+          "category": "Scaling",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$177K – $300K + Offers Equity",
+          "description": "OpenAI's Hardware organization develops AI-native silicon and system-level solutions for advanced AI workloads, building on efforts like Jalapeño to co-design chips, systems, tools, and methodologies for OpenAI's supercomputing platform. As a Hardware Test Engineer, you will design, implement, and execute comprehensive test plans ensuring the reliability, performance, and scalability of supercomputing hardware systems, including processors, memory modules, custom accelerators, and interconnects, while collaborating with hardware design, manufacturing, and firmware teams.",
+          "requirements": [
+            "At least 10 years of industry experience testing or supporting hardware design teams for datacenter applications",
+            "Proven experience in hardware testing and validation with oscilloscopes, power supplies, analyzers, and other test instruments",
+            "Strong understanding of electrical, power, and thermal testing methodologies",
+            "Expertise with interface protocols such as SPI, I2C, USB, DDRx, and Datacenter Ethernet compliance",
+            "Proficiency in Python, Bash, and test automation frameworks",
+            "Experience with system testing from xPUs and boards to rack and data center level"
+          ],
+          "sourceUrl": "https://openai.com/careers/hardware-engineer-test-san-francisco/"
+        },
+        {
+          "id": "agent-standards-architect-global-affairs-washington-dc",
+          "title": "Agent Standards Architect, Global Affairs",
+          "category": "Global Affairs",
+          "location": "Washington, DC or New York City",
+          "jobType": "Full-time",
+          "payRange": "$171K – $280K + Offers Equity",
+          "description": "OpenAI's Global Affairs team builds relationships with public officials and the AI policymaking community to shape policy aligned with OpenAI's mission. As Agent Standards Architect, you will lead execution of OpenAI's external technical standards strategy for agent identity, delegated authority, discovery, agentic-commerce, and auditability — turning technical architecture and controls into credible specifications and implementation guidance, and representing OpenAI in venues like IETF, FIDO, OIDF, and W3C.",
+          "requirements": [
+            "Strong experience in technical standards, internet protocols, identity and access, or security architecture",
+            "Has authored, edited, or materially shaped normative specifications or conformance requirements in standards or open-source governance settings",
+            "Can reason about OAuth/OIDC, FIDO/WebAuthn, workload identity, delegated authority, and credential lifecycle",
+            "Earns trust with engineers and security leaders while communicating crisply with lawyers, executives, and policymakers",
+            "Strong judgment in ambiguous, high-stakes environments, knowing when to lead, compromise, or escalate"
+          ],
+          "sourceUrl": "https://openai.com/careers/agent-standards-architect-global-affairs-washington-dc/"
+        },
+        {
+          "id": "technical-program-manager-ai-safety-safeguards-san-francisco",
+          "title": "Technical Program Manager, AI Safety & Safeguards",
+          "category": "Technical Program Management",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$207K – $445K + Offers Equity",
+          "description": "OpenAI's Technical Program Managers lead complex, high-stakes initiatives that turn safety commitments into deployed systems and measurable outcomes across model development, infrastructure, product, and operational response. As TPM, AI Safety & Safeguards, you will drive complex product, platform, and safety initiatives across ChatGPT, API, and enterprise environments, translating safety and product priorities into execution plans and partnering with engineers and researchers to integrate safeguards like model evaluations, classifiers, and abuse detection.",
+          "requirements": [
+            "Strong track record delivering high-impact technical programs across product, platform, API, infrastructure, or safety domains",
+            "Strong technical judgment across distributed systems, cloud deployments, APIs, or production machine learning",
+            "Understanding of how safety, integrity, or abuse-prevention systems work (evaluations, guardrails, classifiers, monitoring, incident response)",
+            "Strong program management discipline, coordinating multiple workstreams and resolving complex dependencies",
+            "Comfortable owning high-stakes programs requiring executive presence and cross-organizational influence",
+            "Relevant experience with sensitive deployments or serious-harm domains such as cybersecurity or child safety"
+          ],
+          "sourceUrl": "https://openai.com/careers/technical-program-manager-ai-safety-and-safeguards-san-francisco/"
+        },
+        {
+          "id": "cyber-operations-lead-critical-harm-operations-san-francisco",
+          "title": "Cyber Operations Lead, Critical Harm Operations",
+          "category": "Trust & Safety",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$252K – $335K + Offers Equity",
+          "description": "Critical Harm Operations sits within User Safety & Risk Operations, building enforcement systems for the most severe user-safety risks — including Frontier Risk and Material Harm — that are accurate, fast, defensible, and scalable. As Cyber Operations Lead, you will personally shape complex cyber judgments, operating models, SOPs, and automation strategies while building, coaching, and managing a high-performing team across FTEs and BPO partners, serving as the senior cybersecurity expert for high-risk decisions across ChatGPT, API, Codex, and agent surfaces.",
+          "requirements": [
+            "8+ years of experience in cybersecurity, cyber intelligence, threat intelligence, or incident response, including 4+ years leading teams",
+            "Has built and scaled a cyber operations or abuse-prevention capability across regions or products",
+            "Designed and launched human-in-the-loop automation or evaluation systems that materially improved safety or scale",
+            "Strong cyber judgment reasoning about attacker behavior, emerging threats, and ambiguous dual-use activity",
+            "Exceptional executive presence, distilling complex cyber risk into crisp recommendations for senior leaders",
+            "Ability to influence across organizations, coach others, and navigate disagreement"
+          ],
+          "sourceUrl": "https://openai.com/careers/cyber-operations-lead-critical-harm-operations-san-francisco/"
+        },
+        {
+          "id": "research-communications-manager-san-francisco",
+          "title": "Research Communications Manager",
+          "category": "Communications",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$185K – $205K + Offers Equity",
+          "description": "OpenAI's Communications team explains the company's technology, values, and approach to safely building powerful AI. As Research Communications Manager on the Platform & Research Communications team, you will partner with safety and alignment researchers to shape how OpenAI's safety research — from alignment and evaluations to preparedness and interpretability — is understood by researchers, journalists, policymakers, and the public, developing proactive storytelling and managing media engagement for research launches and publications.",
+          "requirements": [
+            "7+ years of experience in research, science, technology, or safety-related communications",
+            "Demonstrated experience working directly with scientists, engineers, researchers, or technical leaders",
+            "Strong understanding of AI, machine learning, safety research, or alignment",
+            "Exceptional writing and editing skills, adapting tone for expert and general audiences",
+            "Experience developing proactive storytelling strategies across blogs, media, video, and events",
+            "Strong judgment handling complex, ambiguous, or high-stakes narratives"
+          ],
+          "sourceUrl": "https://openai.com/careers/research-communications-manager-san-francisco/"
+        },
+        {
+          "id": "head-of-data-science-strategic-finance-san-francisco",
+          "title": "Head of Data Science, Strategic Finance",
+          "category": "Strategic Finance",
+          "location": "San Francisco, CA",
+          "jobType": "Full-time",
+          "payRange": "$459K – $536K + Offers Equity",
+          "description": "The Strategic Finance team shapes OpenAI's financial strategy and capital allocation decisions. As Head of Data Science, Strategic Finance, a managerial role reporting to the VP of Strategic Finance, you will develop forecasts for product usage, revenue, and compute consumption, design dashboards for key financial metrics, lead metrics reviews with finance leadership, and build and mentor a high-performing data science team.",
+          "requirements": [
+            "MS/PhD in a quantitative discipline (Math, Statistics, Operations Research, Economics, Engineering, or CS)",
+            "12+ years of experience in a Data Science role at a dynamic, outcome-driven organization",
+            "Proficiency in SQL and experience building production-ready time series forecasting models",
+            "Experience conducting open-ended research on new forecasting methodologies",
+            "Exemplary ability to distill complex financial information into actionable insights for leadership",
+            "Prior management experience and knowledge of Python"
+          ],
+          "sourceUrl": "https://openai.com/careers/head-of-data-science-strategic-finance-san-francisco/"
+        }
+      ]
     },
     {
-      "id": "R0000475302",
-      "title": "Sr Cybersecurity Analyst (Cyber Threat Intelligence)",
-      "category": "Target Tech",
-      "location": "Bangalore, Karnātaka, IN",
-      "jobType": "Full-time",
-      "payRange": null,
-      "description": "As a Senior Cyber Threat Intelligence Analyst, you'll support identification, collection, analysis, production and dissemination of intelligence on cyber threats to Target — converting threat reporting, technical indicators and internal security context into insights that inform detection, response and risk prioritization. You'll analyze indicators of compromise, threat actor TTPs, malware behavior and campaign activity, applying frameworks like the Diamond Model, Cyber Kill Chain and MITRE ATT&CK, and partner with CSIRT, Reverse Engineering and Threat Management teams.",
-      "requirements": [
-        "Experience as an all-source cyber threat intelligence analyst",
-        "Familiarity with structured analytic techniques and frameworks (Diamond Model, Cyber Kill Chain, MITRE ATT&CK)",
-        "Strong analytic rigor, technical curiosity and sound judgment working independently",
-        "Ability to draft and deliver finished intelligence products and briefings"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w53/02/sr-cybersecurity-analyst"
-    },
-    {
-      "id": "R0000446770",
-      "title": "Account Manager, Roundel - Target Product Ads",
-      "category": "Marketing & Digital",
-      "location": "Minneapolis, MN (or NYC)",
-      "jobType": "Full-time",
-      "payRange": "$73,000 - $132,000 USD annually",
-      "description": "Roundel is Target's advertising sell-side media business, built on first-party data and brand-safe environments. As Manager, Account Management, you'll develop a multi-channel, integrated marketing approach across digital platforms for Roundel clients, maintaining highly productive relationships with internal and external partners, and using strong communication skills to tell the story of Roundel's differentiators in the marketplace.",
-      "requirements": [
-        "Client-facing account management experience in digital media/advertising",
-        "Strong communication and relationship-management skills",
-        "Ability to problem-solve tactically while seeing the bigger strategic picture",
-        "Curiosity about the digital advertising space and creative campaign thinking"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w67/70/account-manager,-roundel-target-product-ads-msp-or-nyc"
-    },
-    {
-      "id": "R0000475896",
-      "title": "Loyalty Marketing Analyst",
-      "category": "Marketing & Digital",
-      "location": "Minneapolis, MN",
-      "jobType": "Full-time",
-      "payRange": "$58,100 - $104,600 USD annually",
-      "description": "As a Marketing Associate on Loyalty Member Engagement, you'll manage and oversee incentive and benefits marketing execution across owned and operated channels, influencing marketing strategy and bringing it to life through cross-functional execution management, assessing performance and informing future activations with an analytical skillset.",
-      "requirements": [
-        "Four-year degree or equivalent experience",
-        "2-3 years of experience in marketing analytics, loyalty, or equivalent",
-        "Proficient in data analytics, with ability to analyze and recommend strategies from data",
-        "Strong written/verbal communication across cross-functional and vendor partners"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w58/96/loyalty-marketing-analyst"
-    },
-    {
-      "id": "R0000440436",
-      "title": "Lead Data Analyst",
-      "category": "Marketing & Digital (Data Analytics)",
-      "location": "Bangalore, Karnātaka, IN",
-      "jobType": "Full-time",
-      "payRange": null,
-      "description": "Join the Data Analytics team across Marketing, Merchandising, Supply Chain, Store Operations and Finance, turning data into insights that drive strategic decisions. You'll translate ambiguous business problems into structured analytical approaches, design and deliver analytical and AI-driven solutions (including GenAI and agentic approaches), and work with large-scale datasets on platforms like GCP BigQuery, Spark, and SQL-based warehouses.",
-      "requirements": [
-        "Strong experience translating ambiguous business problems into analytical approaches",
-        "Hands-on experience with BigQuery, Spark, SQL, and pipeline orchestration (e.g. Airflow)",
-        "Experience applying causal, predictive, and prescriptive analytics",
-        "Ability to synthesize complex analysis into clear recommendations for business stakeholders"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w04/36/lead-data-analyst"
-    },
-    {
-      "id": "R0000475819",
-      "title": "Project Planner, Target Printing Services",
-      "category": "Service Centers & Business Enablement",
-      "location": "Brooklyn Park, MN",
-      "jobType": "Full-time",
-      "payRange": "$58,100 - $104,600 USD annually",
-      "description": "Target Printing Services (TPS) drives internal partners' strategy (Marketing, Store Operations) through print and kitting projects. As Print Planner, you'll own estimating, production planning and ordering of materials, partnering with Project and Account Managers to translate approved project requirements into accurate, cost-effective production plans, balancing cost, efficiency, quality and timelines.",
-      "requirements": [
-        "Experience in production planning, estimating, or print/manufacturing operations",
-        "Familiarity with estimating and planning tools (e.g. Monarch Estimating)",
-        "Strong vendor and materials coordination skills",
-        "Detail-oriented with ability to manage multiple concurrent production plans"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w58/19/project-planner-target-printing-services"
-    },
-    {
-      "id": "R0000475762",
-      "title": "Sr Analyst, Domestic First Mile Transportation (Hybrid)",
-      "category": "Global Supply Chain & Logistics",
-      "location": "Minneapolis, MN",
-      "jobType": "Full-time",
-      "payRange": "$73,000 - $132,000 USD annually",
-      "description": "As Senior Analyst on the Domestic First Mile Transportation team, you'll play a critical role optimizing how product moves from vendors into Target's supply chain — leveraging data and operational insight to improve transportation performance, identify network optimization opportunities, and influence strategic decisions strengthening the inbound transportation network. Combines analytical problem solving, program management and relationship management across Transportation, Inventory, Distribution, Merchandising, Technology, Finance and carrier partners.",
-      "requirements": [
-        "Strong analytical and data-driven problem-solving skills",
-        "Experience with transportation, logistics or supply-chain network optimization",
-        "Program/relationship management across cross-functional and external carrier partners",
-        "Comfort operating with ambiguity in a fast-paced environment"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w57/62/sr-analyst,-domestic-first-mile-transportation-hybrid"
-    },
-    {
-      "id": "R0000450965",
-      "title": "Inventory Analyst Intern (Starting Summer 2027)",
-      "category": "Internships",
-      "location": "Minneapolis, MN",
-      "jobType": "Full-time (Internship)",
-      "payRange": "$29.00 USD per hour",
-      "description": "An entry-level internship giving a realistic preview of life as an Inventory Analyst — applying financial, analytical and communication skills to impact the bottom line while delivering products to guests. Interns manage a project from start to finish, present results to department leadership, and gain insight into negotiating and maintaining vendor relationships, with extensive training and development support.",
-      "requirements": [
-        "Current cumulative GPA of 3.0 or above",
-        "Excellent analytical and problem-solving skills",
-        "Strong planning and organizational abilities",
-        "Exceptional leadership qualities and decision-making skills; strong communication"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w09/65/inventory-analyst-intern-minneapolis,-mn-starting-summer,-2027"
-    },
-    {
-      "id": "R0000472981",
-      "title": "Guest Advocate (Cashier or Front of Store/Cart Attendant)",
-      "category": "Store Hourly",
-      "location": "San Francisco, CA",
-      "jobType": "Part-time",
-      "payRange": "$21.50 USD per hour",
-      "description": "Advocates of guest experience who welcome, thank, and exceed service expectations — focusing on guest interaction, loyalty enrollment and store cleanliness, at checklanes, guest services, gift registry, pick-up and drive-up. Builds skills in communicating with guests, problem-solving and decision-making to resolve guest concerns, and promoting store benefits/services.",
-      "requirements": [
-        "Comfortable greeting and interacting with guests in a fast-paced environment",
-        "Ability to adapt to different guest interactions and situations",
-        "Basic comfort with point-of-sale / checkout systems",
-        "Reliable availability for part-time retail scheduling"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w29/81/guest-advocate-cashier-or-front-of-store-attendant-cart-attendant-t2768"
-    },
-    {
-      "id": "R0000472983",
-      "title": "Specialty Sales — Style Consultant (Style, Tech, Beauty)",
-      "category": "Store Hourly",
-      "location": "San Francisco, CA",
-      "jobType": "Part-time",
-      "payRange": "$21.50 USD per hour",
-      "description": "Style Consultants bring the energy of style to life through strong operations, guest experience and compelling visual merchandising. Responsibilities include driving sales via visual standards and signing, sorting and locating freight, setting visual presentations, maintaining product availability and a full floorpad, and remerchandising as product sells through.",
-      "requirements": [
-        "Interest in retail merchandising, visual presentation, or fashion/beauty/tech categories",
-        "Comfort with physical tasks: sorting freight, stocking, setting displays",
-        "Basic retail business fundamentals (inventory, pricing/promotions awareness) a plus",
-        "Guest-first, team-oriented attitude"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w29/83/specialty-sales-style,-tech,-beauty-t2768"
-    },
-    {
-      "id": "R0000450941",
-      "title": "Specialty Sales Team Leader",
-      "category": "Store Hourly (Leadership)",
-      "location": "San Francisco, CA",
-      "jobType": "Full-time",
-      "payRange": "$29.00 - $31.00 USD per hour (range to $49.30)",
-      "description": "Leads multiple businesses within Apparel & Accessories, Home, Baby, Core Beauty and Electronics, balancing team member expertise across departments. Builds skills in retail business fundamentals (sales trends, inventory management, pricing/promotions), workload planning to hit sales goals, and leading a team of hourly team members including interviewing, developing, coaching and retaining talent.",
-      "requirements": [
-        "Prior experience leading or supervising a retail team",
-        "Retail business fundamentals: sales trends, inventory management, promotions strategy",
-        "Interviewing, coaching and talent-development skills",
-        "Ability to balance multiple departments/businesses at once"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w09/41/specialty-sales-team-leader"
-    },
-    {
-      "id": "R0000452986",
-      "title": "Target Security Specialist",
-      "category": "Store Hourly (Assets Protection)",
-      "location": "San Francisco, CA",
-      "jobType": "Part-time",
-      "payRange": "$24.00 USD per hour",
-      "description": "Assets Protection teams keep guests, team and brand secure and lead through crisis events — protecting profitable sales by mitigating shortage risk and preventing/resolving theft and fraud. Responsibilities include intelligence-led security tactics, crisis response and de-escalation, operating video surveillance systems, and timely documentation of security incidents using case management systems.",
-      "requirements": [
-        "Comfort with crisis response, safety and crowd-management situations",
-        "De-escalation skills and composure under pressure",
-        "Attention to detail for incident documentation",
-        "Ability to build relationships with store leaders and public safety officials"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w29/86/target-security-specialist"
-    },
-    {
-      "id": "R0000437091",
-      "title": "Executive Team Leader HR (Assistant Manager HR)",
-      "category": "Store Leadership",
-      "location": "San Francisco, CA",
-      "jobType": "Full-time",
-      "payRange": "$83,200 - $130,000 USD annually",
-      "description": "Leads a team of HR Experts and Team Leaders supporting the store's sales force, championing change and building diverse, inclusive talent strategies. Spends most of the day on the sales floor as a consultant to peers, creating and managing HR strategy and goals, reading financial reports, applying employment law knowledge, and coaching business leaders on growing their teams.",
-      "requirements": [
-        "Experience managing HR strategy and goals, delivering results through a team",
-        "Knowledge of federal, state and local employment law",
-        "Recruiting, selecting and talent-management experience for hourly team members and leaders",
-        "Ability to read financial reporting and interpret data; coach/consult with senior business leaders"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w70/91/executive-team-leader-human-resources-assistant-manager-hr-san-francisco,-ca"
-    },
-    {
-      "id": "R0000472979",
-      "title": "General Merchandise, Closing, Fulfillment (Fulfillment Expert)",
-      "category": "Store Hourly",
-      "location": "San Francisco, CA",
-      "jobType": "Part-time",
-      "payRange": "$21.50 USD per hour",
-      "description": "Fulfillment Experts pick, prep, pack, sort and ship products safely and efficiently to deliver on guest digital orders (order pickup, drive up, ship to home). Work changes daily based on guest ordering patterns, using reporting systems to meet shifting digital demand while maintaining accuracy, timeliness and safety standards.",
-      "requirements": [
-        "Comfort in a fast-changing, task-switching warehouse-style store environment",
-        "Basic systems literacy for order-management tools",
-        "Attention to accuracy and timeliness under demand swings",
-        "Ability to follow safety/food-safety procedures"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w29/79/general-merchandise,-closing,-fulfillment-t2768"
-    },
-    {
-      "id": "R0000447662",
-      "title": "Warehouse Operations (Warehouse Associate / Warehouse Worker)",
-      "category": "Supply Chain Hourly",
-      "location": "Newton, NC",
-      "jobType": "Full-time",
-      "payRange": "$20.00 - $25.30 USD per hour depending on role",
-      "description": "Warehouse Operations roles pack, load and ship items to stores and guests, ensuring accurate processing of merchandise and safely/efficiently handling freight and moving inventory throughout the distribution center. Includes safety training, basic math and label-reading tasks, and operating warehouse computer systems or handheld devices.",
-      "requirements": [
-        "Able to lift and carry merchandise 35-60 lbs during a shift",
-        "Comfortable standing, walking, pushing/pulling, squatting, bending and reaching during shifts",
-        "Basic math (counting, addition, subtraction) and label-reading accuracy",
-        "Able to operate computer systems or handheld scanners after training"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w76/62/full-time-hourly-warehouse-operations-t3811"
-    },
-    {
-      "id": "R0000447598",
-      "title": "Warehouse Worker - Food Distribution Center",
-      "category": "Supply Chain Hourly",
-      "location": "Windsor, CT",
-      "jobType": "Full-time",
-      "payRange": "$24.80 - $29.61 USD per hour",
-      "description": "Warehouse Workers at the food distribution center pack, load and ship items to stores and guests, working safely and efficiently to handle freight and move inventory, including at heights on mezzanines. Role includes training to safely operate powered equipment such as pallet riders, scissor lifts and forklifts.",
-      "requirements": [
-        "Able to lift/carry merchandise 35-60 lbs and push utility carts up to 60 lbs",
-        "Comfortable working at heights (up to 40 ft on a mezzanine where applicable)",
-        "Willingness to be trained on and operate powered equipment (forklift, pallet rider, scissor lift)",
-        "Good written and oral communication skills"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w75/98/warehouse-worker-food-distribution-center-t3735"
-    },
-    {
-      "id": "R0000475801",
-      "title": "Senior Target Security Specialist - Flow Center",
-      "category": "Assets Protection & Corporate Security",
-      "location": "Hampton, GA",
-      "jobType": "Full-time",
-      "payRange": "$20.82 - $37.45 USD per hour",
-      "description": "Leads a physical security and safety culture at a Target supply-chain facility through best practices and program management. Executes strategic routines to identify, prevent and investigate theft and shortage leveraging technology, stores and supply-chain partnerships, and reporting/security tactics; operates Target-owned vehicles for yard and perimeter patrol.",
-      "requirements": [
-        "Experience in physical security, loss prevention, or asset protection",
-        "Comfortable leading investigative/patrol routines independently",
-        "Valid driver's license for yard/perimeter vehicle patrol",
-        "Strong cross-team partnership skills (stores, supply chain, corporate security)"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w58/01/senior-target-security-specialist-flow-center-hampton,-ga"
-    },
-    {
-      "id": "R0000441607",
-      "title": "Sr AI Engineer",
-      "category": "Target Tech",
-      "location": "Bangalore, Karnātaka, IN",
-      "jobType": "Full-time",
-      "payRange": null,
-      "description": "Target's Advanced AI team builds end-to-end AI/ML systems creating business value across the enterprise, powered by LLMs, classical ML, or deep learning, designed as scalable, production-grade applications including agentic architectures. As Senior AI Engineer, you'll build, deploy and maintain AI/ML applications supporting automation, insight and action across core business workflows, writing maintainable code, building APIs/services, and supporting deployment and monitoring.",
-      "requirements": [
-        "Hands-on experience building and deploying production-grade AI/ML applications",
-        "Experience with LLM-based or agentic system architectures",
-        "Strong software engineering fundamentals: testing, APIs, deployment, monitoring",
-        "Ability to turn ambiguous business problems into practical technical solutions"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w16/07/sr-ai-engineer"
-    },
-    {
-      "id": "R0000453977",
-      "title": "Warehouse Operations - $1,000 Sign-On Bonus (Warehouse Associate / Worker)",
-      "category": "Supply Chain Hourly",
-      "location": "Wilton, NY",
-      "jobType": "Full-time",
-      "payRange": "$22.05 - $28.71 USD per hour",
-      "description": "Warehouse Operations roles pack, load and ship items to stores and guests, safely and efficiently handling freight and moving inventory through the distribution center, with a $1,000 sign-on bonus for seasonal and permanent positions hired in the current window.",
-      "requirements": [
-        "Able to lift and carry merchandise 35-60 lbs during a shift",
-        "Comfortable with varied shift schedules (day/evening/overnight)",
-        "Basic math and label-reading accuracy",
-        "Team-oriented, safety-first attitude in a fast-paced environment"
-      ],
-      "sourceUrl": "https://corporate.target.com/jobs/w39/77/full-time-hourly-warehouse-operations-openings-$1,000-sign-on-bonus-t0579"
+      "id": "yc",
+      "name": "YC Work at a Startup",
+      "tagline": "Multi-company board — real postings from many YC-backed startups",
+      "accentColor": "#f26522",
+      "snapshotDate": "2026-10-02",
+      "sourceNote": "All 15 postings below were gathered by browsing https://www.workatastartup.com/jobs as a LOGGED-OUT visitor (no account created, no credentials entered). The main /jobs board publicly lists real, live postings (job title, company name, one-line company description, location, job type, and often pay range) without requiring login -- a banner notes '2,855 more roles behind a free account,' confirming the board itself is only partially public, but each visible posting's own detail page (e.g. workatastartup.com/jobs/<id>) was fully accessible logged-out, including the complete role description, full requirements/qualifications, benefits, and 'About the company' section. Category filters (Engineering, Design, Sales, Marketing, Product, etc.) on the public board were used to find a range of non-engineering roles too. No login, signup, or application step was attempted. All text below is paraphrased/summarized from the real public posting pages; nothing was invented.",
+      "jobs": [
+        {
+          "id": "ironclad-senior-software-engineer-ai",
+          "companyName": "Ironclad",
+          "title": "Senior Software Engineer, AI",
+          "category": "Engineering",
+          "location": "San Francisco, CA, US / Indianapolis, IN, US / New York, NY, US / Remote (US)",
+          "jobType": "Full-time",
+          "payRange": "$126K - $175K",
+          "description": "Ironclad is the #1 contract lifecycle management platform, used by companies like L'Oreal, Staples, and Mastercard to collaborate, negotiate, and manage contracts and turn them into business intelligence. As Senior AI Engineer, you'll build state-of-the-art models and services using HuggingFace, OpenAI APIs, and other tools to extract information from contracts and surface insights, working closely with design, product, and data engineering. You'll help drive an enterprise-grade ML platform covering model training, evaluation, inference serving, and monitoring.",
+          "requirements": [
+            "BS degree in Computer Science or related field",
+            "5+ years working with backend services, REST APIs, and Python",
+            "2+ years of NLP experience (text classification, entity extraction, Q&A, document analysis)",
+            "Experience with deep learning frameworks (PyTorch, TensorFlow) and cloud services (Azure, GCP, AWS)",
+            "Git or equivalent version control experience"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/60110"
+        },
+        {
+          "id": "wefunder-full-stack-product-engineer",
+          "companyName": "Wefunder",
+          "title": "Full Stack Product Engineer",
+          "category": "Engineering",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$160K - $250K",
+          "description": "Wefunder is 'the Robinhood for pre-IPO startups,' letting everyday investors put as little as $100 into companies they believe in; the public benefit corporation has helped fund over 900 startups with more than $500M. As a Full Stack Product Engineer you'll build and ship features end-to-end (frontend, backend, database, deploy) on a small ~30-person team where over 70% of new code is AI-generated, helping define what reliable production software looks like when agents write most of the code. Example projects include a real-time money ledger for investor funds and an AI-powered due-diligence assistant.",
+          "requirements": [
+            "Able to build and ship a feature full stack, end-to-end, with no hand-offs",
+            "AI-native: uses tools like Cursor, Codex, or Claude as a core part of how you build",
+            "Comfortable navigating complex systems involving securities law and money movement",
+            "Thrives in startup chaos and ambiguity",
+            "Experience with payments, security, or compliance-type problems is a plus"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/69750"
+        },
+        {
+          "id": "hive-senior-software-engineer-machine-learning",
+          "companyName": "Hive",
+          "title": "Senior Software Engineer, Machine Learning",
+          "category": "Engineering",
+          "location": "CA / Remote (CA)",
+          "jobType": "Full-time",
+          "payRange": "$124K - $188K CAD",
+          "description": "Hive.co is a marketing automation platform powering email, SMS, ads, and CRM campaigns for 1,500+ event promoters, festivals, and venues across North America. As a Senior Software Engineer on the Data team, you'll design and own the cloud-native data and ML platform handling audience data for millions of attendees, building feature stores, training pipelines, model serving, and monitoring, and using AI coding agents to ship LLM-powered pipelines that classify and act on audience data at scale.",
+          "requirements": [
+            "8+ years of hands-on data engineering experience building large-scale distributed data/ML systems in production",
+            "Core ML foundations (supervised/unsupervised learning, regularization, evaluation metrics) and common algorithms",
+            "Feature engineering experience with Python ML tooling (pandas, scikit-learn, PyTorch/TensorFlow)",
+            "MLOps practices: experiment tracking, model versioning, deployment, drift monitoring",
+            "Strong grounding in distributed systems (partitioning, consistency, backpressure, fault tolerance)"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/103933"
+        },
+        {
+          "id": "mason-software-engineer-backend",
+          "companyName": "Mason",
+          "title": "Software Engineer - Backend",
+          "category": "Engineering",
+          "location": "Seattle, WA",
+          "jobType": "Full-time",
+          "payRange": "$80K - $140K",
+          "description": "Mason provides fully managed 'mobile infrastructure as a service,' helping companies design, provision, and deploy fleets of purpose-built Android devices. As a Backend Software Engineer, you'll architect Mason's web service properties for scale and reliability, enhance its over-the-air update infrastructure, build an authorization story for web services, and translate customer-specific requirements into generic backend solutions and tools.",
+          "requirements": [
+            "2+ years of software development experience, professional or otherwise",
+            "Strong backend experience designing and implementing RESTful web services",
+            "Experience with AWS (or comparable platforms like GCP/Heroku)",
+            "Experience scaling a web service and with testing/test automation",
+            "College degree with relevant CS coursework (especially distributed computing) or equivalent experience"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/13302"
+        },
+        {
+          "id": "screenpipe-founding-engineer",
+          "companyName": "screenpipe",
+          "title": "Founding Engineer",
+          "category": "Engineering",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$120K - $240K",
+          "description": "screenpipe builds open computer-history infrastructure that captures screen and audio activity locally so AI agents can gain context from what actually happened on a computer, aiming to let agents carry substantial work across engineering, support, research, sales, and operations. As a Founding Engineer working in person in San Francisco, you'll build both the core product (desktop capture, local storage, search, APIs) and the agent infrastructure the company itself uses to operate -- persistent memory, context retrieval, MCP servers, orchestration, and evaluation/observability tooling -- across a Rust, TypeScript, React, and Tauri stack.",
+          "requirements": [
+            "Demonstrated software or agent workflows you personally built, shipped, and can explain in depth",
+            "Ability to design systems with memory, recovery, and verification that keep working beyond a demo",
+            "Comfortable debugging unfamiliar code and critically inspecting AI-generated changes",
+            "Depth in at least part of the Rust/TypeScript/React/Tauri stack with ability to learn the rest",
+            "Willingness to work in person in San Francisco"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/111400"
+        },
+        {
+          "id": "ironclad-staff-product-designer",
+          "companyName": "Ironclad",
+          "title": "Staff Product Designer",
+          "category": "Design",
+          "location": "San Francisco, CA / New York, NY, US / Remote (US)",
+          "jobType": "Full-time",
+          "payRange": "$189K - $231K",
+          "description": "Ironclad is the leading contract lifecycle management platform, used by companies like L'Oreal, Mastercard, and OpenAI to collaborate, negotiate, and extract business intelligence from contracts. As a Staff Product Designer, you'll act as a guide for intuitive user experience across the company, orchestrate design process across multiple concurrent projects, validate designs in Ironclad's usability lab, and do hands-on UI design for a complex, data-rich application while helping grow the design team's culture and talent.",
+          "requirements": [
+            "10+ years of experience designing apps at a tech company",
+            "Track record of shipping exemplary design work into a large market",
+            "Strong UI design craft, with evidence of lifting the design quality of others",
+            "Fluency with web, iOS, and Android UI design patterns",
+            "Excellent communication skills across all levels of a company"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/65008"
+        },
+        {
+          "id": "wefunder-lead-designer",
+          "companyName": "Wefunder",
+          "title": "Lead Designer",
+          "category": "Design",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$160K - $250K",
+          "description": "Wefunder, the 'Robinhood for pre-IPO startups,' lets everyday people invest as little as $100 in companies they believe in and has helped fund over 900 startups with $500M+. As Lead Designer reporting directly to the CEO, you'll own design across the entire company, live-prototyping with AI tools like Cursor and Claude, building the design system that lets engineers and agents ship on-brand UI, and guarding the 'soul' of the product for both founders and investors.",
+          "requirements": [
+            "Portfolio showing pixel-perfect, minimalist UI craft",
+            "Comfortable live-prototyping with AI tools (Cursor, Claude, Codex, Replit)",
+            "Can write basic CSS/HTML and submit to a git repository",
+            "Experience navigating a legally complex product surface (many page variants)",
+            "Judgment for when to lead with data (A/B testing) versus taste"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/80391"
+        },
+        {
+          "id": "anara-product-designer",
+          "companyName": "Anara",
+          "title": "Product Designer",
+          "category": "Design",
+          "location": "San Francisco",
+          "jobType": "Full-time",
+          "payRange": "$150K - $180K",
+          "description": "Anara is building an AI workspace for scientific research, aiming to compress a century of scientific progress into the next decade by automating literature review for researchers and students; it has grown to millions of users and is approaching $10M in annual revenue. As a Product Designer working directly with the founder, you'll design and ship features that define how humans and AI collaborate on research, talk to users to translate feedback into product improvements, and own aspects of Anara's visual identity across product, marketing, and brand.",
+          "requirements": [
+            "2+ years shipping complex, polished features to real users",
+            "Strong taste for interaction design and UI detail",
+            "Experience in a high-growth, fast-paced startup environment",
+            "Comfortable moving from idea to production in days, not weeks",
+            "Willingness to work in person in San Francisco"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/88147"
+        },
+        {
+          "id": "wefunder-head-of-sales-syndicates",
+          "companyName": "Wefunder",
+          "title": "Head of Sales, Syndicates",
+          "category": "Sales",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$160K - $250K",
+          "description": "Wefunder lets angel investors and fund managers pool capital into startups through 'Syndicates,' a fast-growing part of the Robinhood-for-pre-IPO-startups platform. As the first dedicated sales hire for Syndicates, you'll build the sales playbook from scratch, sourcing and closing deals directly with angel investors, rolling-fund managers, and VCs, and feeding what you learn back to product and engineering to shape the roadmap.",
+          "requirements": [
+            "Fluency in how venture capital, angel investing, and syndicates work (carry, SPVs, pro-rata)",
+            "Proven track record of actually closing deals, not just building pipeline",
+            "Existing relationships or natural ability to build trust in the investor community",
+            "Comfortable operating with founder-like autonomy in ambiguous, fast-changing environments",
+            "Experience selling a fintech or marketplace product in a regulated industry is a plus"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/92786"
+        },
+        {
+          "id": "hedge-business-development-representative",
+          "companyName": "Hedge",
+          "title": "Business Development Representative",
+          "category": "Sales",
+          "location": "San Francisco - In Office",
+          "jobType": "Full-time",
+          "payRange": "$60K - $100K base salary ($200K target OTE)",
+          "description": "Hedge is building an AI-native specialty insurance company that helps independent retail insurance agencies place difficult commercial risks faster with better market access. As a Business Development Representative working directly with the founders, you'll research and open new agency relationships, qualify and book meetings with agency owners and producers, and help build the outbound playbook the future revenue team will use, with an annual target of $2.5M in sourced bound new premium.",
+          "requirements": [
+            "Evidence you can create new opportunities, not just complete activities",
+            "Comfort spending significant time on the phone doing outbound",
+            "Clear, concise written communication and professional follow-through",
+            "Strong research, organization, and attention to detail",
+            "Experience with a CRM, outbound sales, or agency/insurance sales is helpful but not required"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/106793"
+        },
+        {
+          "id": "casco-technical-account-executive",
+          "companyName": "Casco",
+          "title": "Technical Account Executive",
+          "category": "Sales",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$350K OTE",
+          "description": "Casco performs autonomous, continuous security testing of web apps, APIs, cloud, and AI systems using supervised AI agents, aiming to replace slow, point-in-time pentesting with always-on vulnerability discovery and remediation guidance. As a Technical Account Executive, you'll run full sales cycles with AppSec leaders and CISOs, build outbound pipeline from scratch alongside the founders, and turn founder-led sales momentum into a repeatable motion for a new security category.",
+          "requirements": [
+            "Experience closing technical B2B software deals, ideally in security, dev tools, infrastructure, or AI",
+            "Comfort selling to skeptical technical buyers like AppSec leaders and CISOs",
+            "Strong outbound instincts: building lists, crafting messages, following through",
+            "Technical fluency with application security, APIs, cloud environments, and SDLC workflows",
+            "Willingness to do unglamorous work: cold outbound, events, CRM hygiene"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/95762"
+        },
+        {
+          "id": "lance-product-marketing-manager",
+          "companyName": "Lance",
+          "title": "Product Marketing Manager",
+          "category": "Marketing",
+          "location": "San Francisco, CA, US",
+          "jobType": "Full-time",
+          "payRange": "$140K",
+          "description": "Lance builds autonomous AI agents that answer calls, close sales, and run back-of-house operations for hotels, supporting 50+ properties across brands like Marriott, Hilton, and Hyatt using computer-use agent technology. As Product Marketing Manager, you'll craft go-to-market strategy and messaging for new product launches, manage vendors producing marketing content, arm Sales and Solutions teams with pitch decks and case studies, and run competitive research and customer insight work to sharpen positioning.",
+          "requirements": [
+            "Experience in product marketing or growth at a B2B SaaS or AI company",
+            "Ability to translate technical AI/automation products into clear business value",
+            "Track record executing go-to-market strategies and product launches",
+            "Strong written and verbal communication, including sales collateral creation",
+            "Willingness to work in person in San Francisco"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/94304"
+        },
+        {
+          "id": "mason-technical-product-manager-software",
+          "companyName": "Mason",
+          "title": "Technical Product Manager, Software",
+          "category": "Product",
+          "location": "Seattle, WA, United States / Remote (US)",
+          "jobType": "Full-time",
+          "payRange": "$115K - $165K",
+          "description": "Mason provides fully managed 'mobile infrastructure as a service,' letting companies turn an idea into a smart device and ship it worldwide, used across clinical trials, warehouse logistics, and retail payments. As a Technical Product Manager, you'll own Mason's core Controller product, including developer-facing APIs, tooling, and SDKs, driving the roadmap, writing specs with design and engineering, and validating direction directly with customers.",
+          "requirements": [
+            "BA/BS in Computer Science or equivalent experience",
+            "5+ years of product management experience, ideally with cloud infrastructure products",
+            "Strong understanding of cloud infrastructure and the market (AWS, Azure, GCP)",
+            "Technical understanding of containerization, CI/CD, operating systems, or distributed systems",
+            "Proven track record shipping successful enterprise software products"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/61480"
+        },
+        {
+          "id": "anara-technical-product-manager",
+          "companyName": "Anara",
+          "title": "Technical Product Manager",
+          "category": "Product",
+          "location": "San Francisco",
+          "jobType": "Full-time",
+          "payRange": "$150K - $200K",
+          "description": "Anara is building an AI workspace aimed at compressing a century of scientific progress into the next decade by automating literature review and research workflows, having grown to millions of users and nearly $10M in annual revenue. As the company's first and only product manager, you'll work directly with the founder to run user discovery, translate cutting-edge AI advances into practical research features, and optimize flows to reduce friction and churn.",
+          "requirements": [
+            "2+ years combined product management and engineering experience, including 1+ year as a professional engineer",
+            "Experience independently building and scaling a product to at least a few thousand users",
+            "Strong product and design taste",
+            "Experience in a high-growth, fast-paced startup environment",
+            "Willingness to work in person in San Francisco"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/88146"
+        },
+        {
+          "id": "retell-ai-senior-product-manager",
+          "companyName": "Retell AI",
+          "title": "Senior Product Manager",
+          "category": "Product",
+          "location": "San Francisco Bay Area (Redwood City, CA)",
+          "jobType": "Full-time",
+          "payRange": "$200K - $300K",
+          "description": "Retell AI builds real-time voice AI agents that handle sales, support, and logistics calls for enterprises like CVS/Aetna, American Airlines, and Lenovo, scaling to $80M in ARR at a reported valuation over $1.5B. As Senior Product Manager, you'll take end-to-end ownership of core product areas powering millions of AI-driven conversations, writing PRDs, partnering with engineering and design, and working across real-time audio, telephony workflows, and agent behavior.",
+          "requirements": [
+            "5+ years of product management experience, ideally on B2B/PLG products",
+            "Comfortable in high-velocity startup environments with ambiguity and fast iteration",
+            "Customer-obsessed: regularly reviews real usage (calls, sessions) to turn feedback into action",
+            "Strong cross-functional collaboration with engineering, design, and sales",
+            "Experience with AI products; voice AI experience a strong plus"
+          ],
+          "sourceUrl": "https://www.workatastartup.com/jobs/108879"
+        }
+      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Target Careers — Your Recruiting Agent</title>
+<title>Recruiting Agent — Careers Page Demo</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +11,7 @@
     <div class="topbar-inner">
       <div class="brand">
         <span class="brand-mark">◎</span>
-        <span class="brand-name">Target Careers</span>
+        <span class="brand-name">Recruiting Agent</span>
       </div>
       <span class="badge" id="job-count-badge">loading open roles…</span>
     </div>
@@ -26,6 +26,12 @@
         recruiting agent will read it, work out your strengths and gaps, and match you against
         every open role, instead of making you guess which of them applies to you.
       </p>
+    </section>
+
+    <section class="panel company-panel">
+      <p class="field-label">Try it against a real company's open roles</p>
+      <div id="company-tabs" class="company-tabs"></div>
+      <p id="company-source-note" class="company-source-note"></p>
     </section>
 
     <section class="panel key-panel" id="key-panel">
@@ -115,9 +121,9 @@
 
   <footer class="footer">
     <p>
-      Prototype UX concept — real job data scraped once from Target's public careers site,
-      real Claude API calls made directly from your browser. Not affiliated with or endorsed
-      by Target. Not a production recruiting system.
+      Prototype UX concept — real job data scraped once from each company's own public careers
+      site or job board, real Claude API calls made directly from your browser. Not affiliated
+      with or endorsed by any company shown here. Not a production recruiting system.
     </p>
   </footer>
 
