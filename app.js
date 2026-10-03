@@ -142,15 +142,25 @@ function renderFileList() {
     const statusLabel =
       f.status === "parsing" ? "reading…" : f.status === "error" ? "couldn't read" : `${f.text.length.toLocaleString()} chars`;
 
-    li.innerHTML = `
-      <span class="file-name">${f.name}</span>
-      <span class="file-status ${f.status}">${statusLabel}</span>
-      <button class="file-remove" type="button" aria-label="Remove ${f.name}">×</button>
-    `;
-    li.querySelector(".file-remove").addEventListener("click", () => {
+    const nameSpan = document.createElement("span");
+    nameSpan.className = "file-name";
+    nameSpan.textContent = f.name;
+
+    const statusSpan = document.createElement("span");
+    statusSpan.className = `file-status ${f.status}`;
+    statusSpan.textContent = statusLabel;
+
+    const removeBtn = document.createElement("button");
+    removeBtn.className = "file-remove";
+    removeBtn.type = "button";
+    removeBtn.setAttribute("aria-label", `Remove ${f.name}`);
+    removeBtn.textContent = "×";
+    removeBtn.addEventListener("click", () => {
       uploadedFiles = uploadedFiles.filter((uf) => uf.id !== f.id);
       renderFileList();
     });
+
+    li.append(nameSpan, statusSpan, removeBtn);
     el.fileList.appendChild(li);
   });
 }
@@ -372,18 +382,47 @@ function renderResults(parsed) {
     const scoreClass = m.fit_score >= 70 ? "" : "mid";
     const titleText = job.companyName ? `${job.title} — ${job.companyName}` : job.title;
 
-    card.innerHTML = `
-      <div class="match-top">
-        <div>
-          <p class="match-title">${titleText}</p>
-          <p class="match-meta">${job.category} · ${job.location} · ${job.jobType}${job.payRange ? " · " + job.payRange : ""}</p>
-        </div>
-        <span class="fit-score ${scoreClass}">${m.fit_score}% fit</span>
-      </div>
-      <p class="match-why"><strong>Why this fits:</strong> ${m.why_fit || ""}</p>
-      ${m.why_not_perfect ? `<p class="match-caveat">Worth knowing: ${m.why_not_perfect}</p>` : ""}
-      <a class="match-link" href="${job.sourceUrl}" target="_blank" rel="noopener">View original posting →</a>
-    `;
+    const top = document.createElement("div");
+    top.className = "match-top";
+
+    const left = document.createElement("div");
+    const titleP = document.createElement("p");
+    titleP.className = "match-title";
+    titleP.textContent = titleText;
+    const metaP = document.createElement("p");
+    metaP.className = "match-meta";
+    metaP.textContent = `${job.category} · ${job.location} · ${job.jobType}${job.payRange ? " · " + job.payRange : ""}`;
+    left.append(titleP, metaP);
+
+    const scoreSpan = document.createElement("span");
+    scoreSpan.className = `fit-score ${scoreClass}`;
+    scoreSpan.textContent = `${m.fit_score}% fit`;
+
+    top.append(left, scoreSpan);
+    card.appendChild(top);
+
+    const whyP = document.createElement("p");
+    whyP.className = "match-why";
+    const strong = document.createElement("strong");
+    strong.textContent = "Why this fits: ";
+    whyP.append(strong, document.createTextNode(m.why_fit || ""));
+    card.appendChild(whyP);
+
+    if (m.why_not_perfect) {
+      const caveatP = document.createElement("p");
+      caveatP.className = "match-caveat";
+      caveatP.textContent = `Worth knowing: ${m.why_not_perfect}`;
+      card.appendChild(caveatP);
+    }
+
+    const link = document.createElement("a");
+    link.className = "match-link";
+    link.href = job.sourceUrl;
+    link.target = "_blank";
+    link.rel = "noopener";
+    link.textContent = "View original posting →";
+    card.appendChild(link);
+
     el.matchesList.appendChild(card);
   });
 
